@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "lib": [ "es2021", "dom" ],
+    "module": "esnext",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "noEmitOnError": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "declarationMap": true
+  },
+  "include" : ["./src/**/*.ts*"]
+}
