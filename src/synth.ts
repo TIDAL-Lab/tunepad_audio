@@ -547,7 +547,6 @@ export class Synthesizer {
         this.patch.nodes
             .filter((n) => n.type === 'out')
             .forEach((n) => n.level = clamp(dB, -50.0, 5.0));
-        console.log(this.patch);
     }
 
 
@@ -625,7 +624,7 @@ export class Synthesizer {
     }
 
 
-    _releaseGenerator(generator: SynthChain) {
+    private _releaseGenerator(generator: SynthChain) {
         generator.cancelNotes();
         this._analyzers.forEach((m) => {
             generator.detachAnalyzer(m['nodeId'], m['connectorId']);
@@ -633,7 +632,7 @@ export class Synthesizer {
     }
 
 
-    _destroyAllGenerators() {
+    private _destroyAllGenerators() {
         this.bank.forEach((chain) => { chain.destroy(); });
         this.bank = [ ];
     }

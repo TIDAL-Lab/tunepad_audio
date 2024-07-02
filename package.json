@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf build && rollup --config rollup.config.js",
-    "watch": "rollup --config rollup.config.js --watch"
+    "watch": "rollup --config rollup.config.js --watch",
+    "docs": "npx typedoc src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "rimraf": "^5.0.7",
     "rollup": "^4.18.0",
     "tslib": "^2.6.3",
+    "typedoc": "^0.26.3",
     "typescript": "^5.5.2"
   }
 }
