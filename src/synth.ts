@@ -547,7 +547,6 @@ export class Synthesizer {
         this.patch.nodes
             .filter((n) => n.type === 'out')
             .forEach((n) => n.level = clamp(dB, -50.0, 5.0));
-        console.log(this.patch);
     }
 
 
