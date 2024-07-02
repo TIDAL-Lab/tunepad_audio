@@ -40,6 +40,7 @@ export declare class Synthesizer {
     /** optional analyzer node for visualizing audio stream */
     private _analyzer?;
     private _analyzers;
+    private _effects;
     /**
      * Create a new synthesizer
      * @param patch optional name of the patch to load (e.g. "grand_piano")
@@ -83,7 +84,6 @@ export declare class Synthesizer {
     */
     cancelAllNotes(): void;
     scheduleNotes(trace: MusicTrace, dest: AudioNode, delta: number): void;
-    private _effects;
     /**
      * Experimental. Generate MIDI output events
      * @param trace
@@ -158,7 +158,7 @@ export declare class Synthesizer {
      */
     set volume(dB: number);
     private _allocateGenerator;
-    _releaseGenerator(generator: SynthChain): void;
-    _destroyAllGenerators(): void;
+    private _releaseGenerator;
+    private _destroyAllGenerators;
 }
 //# sourceMappingURL=synth.d.ts.map
