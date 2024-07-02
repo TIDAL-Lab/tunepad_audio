@@ -625,7 +625,7 @@ export class Synthesizer {
     }
 
 
-    _releaseGenerator(generator: SynthChain) {
+    private _releaseGenerator(generator: SynthChain) {
         generator.cancelNotes();
         this._analyzers.forEach((m) => {
             generator.detachAnalyzer(m['nodeId'], m['connectorId']);
@@ -633,7 +633,7 @@ export class Synthesizer {
     }
 
 
-    _destroyAllGenerators() {
+    private _destroyAllGenerators() {
         this.bank.forEach((chain) => { chain.destroy(); });
         this.bank = [ ];
     }
