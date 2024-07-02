@@ -101,7 +101,9 @@ export class Synthesizer {
     private _analyzer? : AnalyserNode;
     private _analyzers = new Map<number, any>();
 
+    private _effects = new Array<SynthEffect>();
 
+    
     /**
      * Create a new synthesizer
      * @param patch optional name of the patch to load (e.g. "grand_piano")
@@ -311,7 +313,6 @@ export class Synthesizer {
             */
         }
     }
-    private _effects = new Array<SynthEffect>();
 
 
     /**
