@@ -3,14 +3,14 @@ TunePad audio synthesis engine.
 **Experimental** Beta version still in development.
 
 # Install
-For a local install:
+For local installs:
 ```sh
-npm install <tunepad_audio_directory>
+npm install --save-dev <tunepad_audio_directory>
 ```
 
-For a remote install:
+For remote installs:
 ```sh
-npm i https://github.com/TIDAL-Lab/tunepad_audio
+npm install --save-dev https://github.com/TIDAL-Lab/tunepad_audio
 ```
 
 # Example
