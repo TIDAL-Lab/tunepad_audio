@@ -40,22 +40,28 @@ export class SoundLoader {
 
 
     /// asynchronously loads a sound from the given URL and uses name as the hash key
-    static async loadAudioBuffer(name : string) : Promise<boolean>  {
+    static async loadAudioBuffer(name : string) : Promise<AudioBuffer | undefined>  {
         const ctx = SoundLoader.context;
-        if (SoundLoader.hasSound(name)) return true;
+        if (SoundLoader.hasSound(name)) {
+            return SoundLoader.getAudioBuffer(name)!;
+        }
         
-        const url = SoundLoader.supportsAudioType('audio/ogg') ? `${name}.ogg` : `${name}.wav`;
+        let url = name;
+        if (url.endsWith('.ogg') || url.endsWith('.wav')) {
+            url = name;
+        } else {
+            url = SoundLoader.supportsAudioType('audio/ogg') ? `${name}.ogg` : `${name}.wav`;
+        }
 
         try {
             let response = await fetch(url);
             let abuff = await response.arrayBuffer();
             let buffer = await ctx.decodeAudioData(abuff);
             SoundLoader.sounds.set(name, buffer);
-            return true;
+            return buffer;
         }
         catch (e) {
             console.log(e);
-            return false;
         }
     }
 
