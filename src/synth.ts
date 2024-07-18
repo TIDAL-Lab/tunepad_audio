@@ -31,7 +31,9 @@ import { SimpleTriPatch } from "./patches/simple-tri";
 import { FilteredSaw } from "./patches/filtered-saw";
 import { WobblySquare } from "./patches/wobbly-square";
 
-
+/**
+ * A SynthPatch specifies how an instrument/voice generates audio
+ */
 export interface SynthPatch {
     name : string,
     nodes : Array<any>,
@@ -41,13 +43,17 @@ export interface SynthPatch {
     parameters : Array<any>
 }
 
+/**
+ * Type checks an object to see if it conforms to the `SynthPatch` interface.
+ * The `parameters` array is currently optional.
+ */
 function isPatch(object: any): object is SynthPatch {
     return (
         typeof object.name === 'string' &&
-        object.version === '2.0' &&
-        object.format === 'tunepad-patch' &&
         Array.isArray(object.nodes) &&
-        Array.isArray(object.routing)
+        Array.isArray(object.routing) &&
+        object.version === '2.0' &&
+        object.format === 'tunepad-patch'
     );
 }
 
@@ -63,6 +69,10 @@ export type BuiltinPatchName = (
     "wobbly-square"
 );
 
+/**
+ * Patches can be specified as a built-in name (string), a patch object, 
+ * or a URL referring to a `patch.json` object.
+ */
 export type SynthPatchRef = BuiltinPatchName | SynthPatch | URL;
 
 
@@ -103,10 +113,10 @@ export class Synthesizer {
 
     private _effects = new Array<SynthEffect>();
 
-    
+
     /**
      * Create a new synthesizer
-     * @param patch optional name of the patch to load (e.g. "grand_piano")
+     * @param patch optional patch to load (e.g. "simple-sine")
      */
     constructor(patch? : SynthPatchRef) {
         if (patch) this.loadPatch(patch);
@@ -196,23 +206,32 @@ export class Synthesizer {
     }
     */
 
-    /// schedule a note to be played in the future
-    ///   note: note to be played (pitch and duration)
-    ///   dest: ultimate audio destination
-    ///   start: the start time for the note in beats
-    ///   delta: time before the start of the next measure (in beats)
-    ///          when this note is to be scheduled. if negative, it means
-    ///          to skip the beginning of a loop
-    scheduleNote(note: Note, dest: AudioNode, start: number, delta: number = 0): SynthChain | undefined {
+
+    /**
+     * Schedule a note to be played in the future.
+     * @param note note to be scheduled.
+     * @param start when to play the note in beats (using synth's tempo setting)
+     * @param delta time before the start of the next measure (in beats). if negative, it means to skip the beginning of a loop
+     * @param dest optional audio destination. By default it plays to AudioContext.destination
+     */
+    scheduleNote(note: Note | number, start: number, delta: number = 0, dest?: AudioNode): SynthChain | undefined {
+        // make sure we have an audio destination
+        if (!dest) {
+            const audio = TunePadAudio.init();
+            dest = audio.context.destination;
+        }
+
+        // make sure we have a note value
+        const n : Note = (typeof note === "number") ? new Note(note) : note;
 
         // convert from beats to seconds
         const now = dest.context.currentTime;
-        const duration = note.duration * (60 / this.bpm);
+        const duration = n.duration * (60 / this.bpm);
         start = (start + delta) * (60 / this.bpm);
 
         // allocate generator that's free at the note start time
         const generator = this._allocateGenerator(dest.context!, now + start);
-        generator?.scheduleNote(note, start, duration, dest);
+        generator?.scheduleNote(n, start, duration, dest);
         return generator;
     }
 
@@ -230,7 +249,7 @@ export class Synthesizer {
 */
 
 
-    /// cancel all scheduled notes
+    /** cancel all scheduled notes */
     cancelAllNotes() {
         for (const chain of this.bank) {
             this._releaseGenerator(chain);
@@ -300,7 +319,7 @@ export class Synthesizer {
             }
             else if (t.command == TraceEvent.PLAY && t.end >= offset) {
                 const last = estack[estack.length - 1];
-                const gen = this.scheduleNote(t.note, last.node, t.time, delta);
+                const gen = this.scheduleNote(t.note, t.time, delta, last.node);
                 estack.forEach((fx) => {
                     fx.afterEffect(gen, t.time, t.note.duration, this.bpm, delta);
                 });
@@ -345,6 +364,24 @@ export class Synthesizer {
     }
 
     /**
+     * Send a single NOTE_ON event to a MIDI output port
+     */
+    playMidiNote(note : Note | number, port : MIDIOutput) {
+        const n : Note = (typeof note === "number") ? new Note(note) : note;
+        const noteOn = [ 0x90, Math.round(n.note), n.velocity ];
+        port.send(noteOn, window.performance.now());
+    }
+
+    /**
+     * Send a single NOTE_OFF event to a MIDI output port
+     */
+    releaseMidiNote(note : Note | number, port : MIDIOutput) {
+        const n : Note = (typeof note === "number") ? new Note(note) : note;
+        const noteOff = [ 0x80, Math.round(n.note), 0 ];
+        port.send(noteOff, window.performance.now());
+    }
+
+    /**
      * Sets the MIDI output "program" or instrument voice
      */
     setMidiProgram(port : MIDIOutput, voice : number) {
@@ -354,7 +391,7 @@ export class Synthesizer {
     }
 
     /**
-     * Send noteOff to all possible midi note values
+     * Send NOTE_OFF to all possible midi note values
      */
     cancelAllMidiNotes(port : MIDIOutput) {
         const now = window.performance.now();
@@ -459,21 +496,12 @@ export class Synthesizer {
                 await SoundLoader.loadCustomSound(node['buffer']);
             }
         }
-
-        for (const config of this.patch['parameters']) {
-            this.parameters.push(SynthParameter.fromJSON(config));
+        if (Array.isArray(this.patch['parameters'])) {
+            for (const config of this.patch['parameters']) {
+                this.parameters.push(SynthParameter.fromJSON(config));
+            }
         }
         return true;
-    }
-
-
-    /**
-     * Return a synthesizer node (modular synth node) matching the given
-     * node id number. node from the first tone generator will be used.
-     * return undefined if there are not tone generators or no matching nodes
-     */
-    private getNodeById(id : number) : SynthNode | undefined {
-        return (this.bank.length > 0) ? this.bank[0]?.getNodeById(id) : undefined;
     }
 
 
