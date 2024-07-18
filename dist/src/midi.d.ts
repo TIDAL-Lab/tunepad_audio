@@ -1,19 +1,24 @@
 export type MIDISource = "pointer" | "keyboard" | "midi" | "system";
-export interface MIDIEventProps {
-    note?: number;
-    velocity?: number;
-    value?: number;
-    time?: number;
-    message: "note-on" | "note-off" | "pitch-bend";
-    source: MIDISource;
+export interface MIDIEventListener {
+    onMidiInput: (e: MIDIEvent) => void;
 }
 /**
  * MIDI event class
  */
 export declare class MIDIEvent {
-    readonly props: MIDIEventProps;
-    get customEvent(): CustomEvent;
-    constructor(props: MIDIEventProps);
+    /** raw midi message code (e.g. 8, 9, 14) */
+    code: number;
+    /** MIDI message (only three messages supported for now) */
+    message: "note-on" | "note-off" | "pitch-bend" | "unknown";
+    /** MIDI note number if applicable */
+    note: number;
+    /** Note velocity if applicable */
+    velocity: number;
+    /** Command value (e.g. for pitch bend amount) */
+    value: number;
+    /** MIDI Channel (typically 0) */
+    channel: number;
+    constructor(code: number);
 }
 /**
  * Singleton wrapper around javascript's MIDIAccess
@@ -21,10 +26,13 @@ export declare class MIDIEvent {
 export declare class MIDIManager {
     private static instance?;
     private access?;
+    private static listeners;
     /**
      * Singleton instance initializer. Can safely be called multiple times.
      */
     static init(): void;
+    static addListener(listener: MIDIEventListener): void;
+    static removeListener(listener: MIDIEventListener): void;
     /**
      * Is the MIDI access object ready?
      */
@@ -38,9 +46,6 @@ export declare class MIDIManager {
      * Fired when midi devices are added or removed.
      */
     private _midiConnection;
-    /**
-     * Processes incoming midi events and send it to listeners
-     */
     private _midiEvent;
 }
 //# sourceMappingURL=midi.d.ts.map
