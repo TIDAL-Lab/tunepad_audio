@@ -1,0 +1,115 @@
+{
+    "patch_id": 243,
+    "name": "303 Bass",
+    "created": "2022-03-01 22:15:47.006",
+    "modified": "2022-03-04 18:32:36.644",
+    "format": "tunepad-patch",
+    "uid": "6000da50-99e2-11ec-bdf9-fb27a92c993b",
+    "version": "2.0",
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0.0340909090909091,
+            "D": 0.1,
+            "R": 0.0477272727272728,
+            "S": 1,
+            "a shape": 4,
+            "cx": 101.404937744141,
+            "cy": 84.5517706871033,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "cx": -175.530906677246,
+            "cy": 143.315292358398,
+            "id": 2,
+            "signal": -2.48,
+            "type": "const"
+        },
+        {
+            "A": 0.114772727272727,
+            "D": 0,
+            "R": 0.430681818181818,
+            "S": 1,
+            "a shape": 1.27272727272728,
+            "cx": -115.530906677246,
+            "cy": 143.315292358398,
+            "d shape": 2,
+            "id": 3,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "Q": 12.37,
+            "Q-mod": 10,
+            "cx": -4.83154344558716,
+            "cy": 83.7465209960938,
+            "filter type": "lowpass",
+            "frequency": 1122,
+            "frequency-mod": 230,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 4,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -167.493057250977,
+            "cy": 82.9412612915039,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 5,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 3,
+            "id": 4,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 7,
+            "level": 0,
+            "source": 3,
+            "type": "frequency"
+        },
+        {
+            "dest": 0,
+            "id": 10,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 13,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 16105.1,
+        "width": 16105.1,
+        "x": -271.370935,
+        "y": -80.5255
+    }
+}
