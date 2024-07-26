@@ -19,6 +19,7 @@ import {
     SynthSampleNode, 
     SynthOscNode,
     EffectCurve,
+    SynthConstNode,
     SynthConnector } from './nodes';
 import { toStr } from './utils';
 
@@ -177,7 +178,7 @@ export class SynthChain {
 
             //case 'compressor': return SynthCompressorNode(context, config);
 
-            //case 'const': return SynthConstNode(context, config);
+            case 'const': return new SynthConstNode(context, config);
 
             //case 'distortion': return SynthDistortionNode(context, config);
 
