@@ -13,7 +13,9 @@ export declare class MIDIEvent {
     /** MIDI note number if applicable */
     note: number;
     /** Note velocity if applicable */
-    velocity: number;
+    private _velocity;
+    get velocity(): number;
+    set velocity(v: number);
     /** Command value (e.g. for pitch bend amount) */
     value: number;
     /** MIDI Channel (typically 0) */

@@ -1,5 +1,6 @@
 export * from "./adsr";
 export * from "./connector";
+export * from "./const";
 export * from "./curve";
 export * from "./filter";
 export * from "./modulator";
