@@ -32,7 +32,15 @@ export class MIDIEvent {
     note : number = -1;
 
     /** Note velocity if applicable */
-    velocity : number = 0;
+    private _velocity : number = 0;
+    get velocity() : number { return this._velocity; }
+    set velocity(v : number) {
+        this._velocity = v;
+        if (v === 0 && this.code === 9) {
+            this.code = 8;
+            this.message = 'note-off';
+        }
+    }
 
     /** Command value (e.g. for pitch bend amount) */
     value : number = 0;
@@ -144,7 +152,9 @@ export class MIDIManager {
             const me = new MIDIEvent(e.data[0] >> 4);
             me.channel = e.data[0] & 0xf;
             me.note = e.data[1];
-            if (e.data.length >= 3) me.velocity = e.data[2];
+            if (e.data.length >= 3) {
+                me.velocity = e.data[2];
+            }
 
             /// FIXME: pitch bend value isn't working quite right
             if (me.message === 'pitch-bend' && e.data.length >= 3) {
