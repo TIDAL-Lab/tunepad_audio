@@ -1,0 +1,49 @@
+{
+    "patch_id": 367,
+    "name": "808 Bass",
+    "instrument": "organ",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "source": "https://www.pianobook.co.uk/packs/static/",
+    "author": "https://www.pianobook.co.uk/profile/thelab/",
+    "license": "https://www.pianobook.co.uk/about/",
+    "description": "Static is an 808 sample instrument made exclusively from whitenoise",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 1.0,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 1.0,
+            "r shape": 0.25,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "808-bass",
+            "samples": [
+                { "sample": "24noteC1", "step": 24 },
+                { "sample": "28noteE1", "step": 28 },
+                { "sample": "36noteC2", "step": 36 },
+                { "sample": "40noteE2", "step": 40 },
+                { "sample": "48noteC3", "step": 48 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}
