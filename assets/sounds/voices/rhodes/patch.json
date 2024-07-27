@@ -1,13 +1,11 @@
 {
-    "patch_id": 5,
-    "name": "Rhodes Piano",
-    "instrument": "piano",
+    "patch_id": 8,
+    "created": "2022-02-26 22:31:22.642",
+    "description": "",
     "format": "tunepad-patch",
-    "version": "2.0",
-    "description": "Fender Rhodes Mark I 73 Key Electric Piano",
-    "source": "https://www.pianobook.co.uk/packs/matts-fender-rhodes/",
-    "author": "https://www.pianobook.co.uk/profile/wolb/",
-    "license": "https://www.pianobook.co.uk/about/", 
+    "instrument": "piano",
+    "modified": "2022-03-11 13:54:15.739",
+    "name": "Rhodes Piano",
     "nodes": [
         {
             "A": 0,
@@ -19,7 +17,7 @@
             "cy": 33.0000007152557,
             "d shape": 2,
             "id": 0,
-            "level": 0.0,
+            "level": 0,
             "r shape": 2,
             "type": "out"
         },
@@ -27,18 +25,28 @@
             "id": 2,
             "playback": 1,
             "playback-mod": 0.15,
-            "sample-pack": "rhodes",
+            "sample-pack": "organ",
             "samples": [
-                { "sample": "24noteC1", "step": 24 },
-                { "sample": "29noteF1", "step": 29 },
-                { "sample": "36noteC2", "step": 36 },
-                { "sample": "41noteF2", "step": 41 },
-                { "sample": "48noteC3", "step": 48 },
-                { "sample": "53noteF3", "step": 53 },
-                { "sample": "60noteC4", "step": 60 },
-                { "sample": "65noteF4", "step": 65 },
-                { "sample": "72noteC5", "step": 72 },
-                { "sample": "84noteC6", "step": 84 }
+                {
+                    "sample": "rhodes-C2",
+                    "step": 36
+                },
+                {
+                    "sample": "rhodes-C3",
+                    "step": 48
+                },
+                {
+                    "sample": "rhodes-C4",
+                    "step": 60
+                },
+                {
+                    "sample": "rhodes-C5",
+                    "step": 72
+                },
+                {
+                    "sample": "rhodes-C6",
+                    "step": 84
+                }
             ],
             "type": "sample"
         }
@@ -52,5 +60,7 @@
             "source": 2,
             "type": "audio"
         }
-    ]
+    ],
+    "uid": "063bca30-a175-11ec-847a-adf3dc702680",
+    "version": "2.0"
 }
