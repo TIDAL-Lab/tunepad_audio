@@ -1,0 +1,135 @@
+{
+    "patch_id": 13,
+    "created": "2020-06-17 20:59:34.626567",
+    "modified": "2020-06-17 20:59:34.626567",
+    "description": "Assorted percussion sounds",
+    "instrument": "drums",
+    "format": "tunepad-patch",
+    "name": "Percussion Sounds",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 0.982954545454545,
+            "a shape": 4,
+            "cx": 70,
+            "cy": 0,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "cx": -29.5000019073486,
+            "cy": -4.76837158203125e-7,
+            "detune": 0,
+            "detune-mod": 20,
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "percussion hits",
+            "samples": [
+                {
+                    "name": "tap",
+                    "sample": "tap",
+                    "step": 0
+                },
+                {
+                    "name": "bell",
+                    "sample": "bell",
+                    "step": 1
+                },
+                {
+                    "name": "perc",
+                    "sample": "perc1",
+                    "step": 2
+                },
+                {
+                    "name": "rim",
+                    "sample": "rim",
+                    "step": 3
+                },
+                {
+                    "name": "shaker",
+                    "sample": "shaker1",
+                    "step": 4
+                },
+                {
+                    "name": "shaker",
+                    "sample": "shaker2",
+                    "step": 5
+                },
+                {
+                    "name": "stick",
+                    "sample": "tick",
+                    "step": 6
+                },
+                {
+                    "name": "pulse",
+                    "sample": "pulse",
+                    "step": 7
+                },
+                {
+                    "name": "snap",
+                    "sample": "snap",
+                    "step": 8
+                },
+                {
+                    "name": "clap",
+                    "sample": "clap1",
+                    "step": 9
+                },
+                {
+                    "name": "clap",
+                    "sample": "clap2",
+                    "step": 10
+                },
+                {
+                    "name": "clap",
+                    "sample": "clap3",
+                    "step": 11
+                },
+                {
+                    "name": "click",
+                    "sample": "click",
+                    "step": 12
+                },
+                {
+                    "name": "bongo",
+                    "sample": "perc2",
+                    "step": 13
+                },
+                {
+                    "name": "squeak",
+                    "sample": "perc3",
+                    "step": 14
+                },
+                {
+                    "name": "block",
+                    "sample": "perc4",
+                    "step": 15
+                }
+            ],
+            "type": "drums"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        }
+    ],
+    "version": "2.0",
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+    }
+}
