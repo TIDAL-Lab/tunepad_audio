@@ -6,6 +6,7 @@
     "version": "2.0",
     "description": "Harpsichord samples from a Yamaha P-105",
     "source": "Yamaha P-105",
+    "credit" : "Audio source: Yamaha P-105 sample",
     "nodes": [
         {
             "A": 0,
