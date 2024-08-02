@@ -1,0 +1,228 @@
+{
+    "patch_id": 170,
+    "created": "2022-02-25 13:13:59.741",
+    "modified": "2022-03-08 11:31:47.379",
+    "description": "This synth is ice cold",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "name": "Ice Synth",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.4,
+            "S": 1,
+            "a shape": 6.74431818181818,
+            "cx": 259.656881332397,
+            "cy": 72.3786721229553,
+            "d shape": 2,
+            "id": 0,
+            "level": 5,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -214.861663818359,
+            "cy": 24.404944896698,
+            "detune": -6,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 2,
+            "level": -2.11112025633019,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -210.361663818359,
+            "cy": 92.4049453735352,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 3,
+            "level": 0.0530008941805226,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "A": 0.0170454545454545,
+            "D": 0.0654545454545455,
+            "R": 0,
+            "S": 0,
+            "a shape": 0.114636363636364,
+            "cx": -51.4412727355957,
+            "cy": 71.5942840576172,
+            "d shape": 3.84659090909091,
+            "id": 4,
+            "level": 2.17177847602018,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "Q": 0.0001,
+            "Q-mod": 10,
+            "cx": 9.24806785583496,
+            "cy": 71.2898139953613,
+            "filter type": "lowpass",
+            "frequency": 4758,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 5,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "cx": 87.7727718353272,
+            "cy": 208.561023712158,
+            "delay": 0.26,
+            "delay-mod": 0.005,
+            "id": 6,
+            "level": -10.4,
+            "type": "delay"
+        },
+        {
+            "attack": 0,
+            "cx": 171.519296646118,
+            "cy": 71.6676940917969,
+            "id": 7,
+            "knee": 30,
+            "ratio": 12,
+            "release": 0.25,
+            "threshold": -50.7045454545454,
+            "type": "compressor"
+        },
+        {
+            "Q": 0.0001,
+            "Q-mod": 10,
+            "cx": 86.9675149917603,
+            "cy": 119.177749633789,
+            "filter type": "lowpass",
+            "frequency": 777,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 8,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "cx": -108.709442138672,
+            "cy": 71.6676871776581,
+            "gain-mod": 0.5,
+            "id": 9,
+            "level": 0.580204778156997,
+            "type": "gain"
+        }
+    ],
+    "parameters": [
+        {
+            "label": "DELAY",
+            "max": 0.5,
+            "min": 0.1,
+            "name": "delay",
+            "node": 6,
+            "slot": 1,
+            "value": 0.256
+        },
+        {
+            "label": "FEEDBACK",
+            "max": -2,
+            "min": -30,
+            "name": "level",
+            "node": 6,
+            "slot": 2,
+            "value": -10.4
+        }
+    ],
+    "routing": [
+        {
+            "dest": 9,
+            "id": 8,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 9,
+            "id": 11,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 14,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 17,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 20,
+            "level": 3.10580204778158,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 8,
+            "id": 23,
+            "level": 0,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 26,
+            "level": -0.221843003412957,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 29,
+            "level": 0,
+            "source": 8,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 32,
+            "level": -7.54266211604095,
+            "source": 8,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 35,
+            "level": 0,
+            "source": 9,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 16105.1,
+        "width": 16105.1,
+        "x": -297.944348848877,
+        "y": -17.715610206604
+    }
+}
