@@ -12,6 +12,7 @@ export interface SynthPatch {
     version: string;
     format: string;
     parameters: Array<any>;
+    credit?: string;
 }
 /**
  * List of built-in patch names
@@ -35,7 +36,7 @@ export declare class Synthesizer {
     /** list of currently scheduled or playing notes */
     private notes;
     /** the patch is a chain of samples and audio nodes that produce notes */
-    private patch;
+    patch: SynthPatch;
     /** name of the active patch */
     get voice(): string;
     /** bank of tone generators that we can check out to play notes */
