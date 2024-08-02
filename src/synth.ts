@@ -40,7 +40,8 @@ export interface SynthPatch {
     routing : Array<any>,
     version : string,
     format : string,
-    parameters : Array<any>
+    parameters : Array<any>,
+    credit? : string
 }
 
 /**
@@ -93,7 +94,7 @@ export class Synthesizer {
     private notes = new Array<SynthEvent>();
 
     /** the patch is a chain of samples and audio nodes that produce notes */
-    private patch : SynthPatch = SimpleSinePatch;
+    patch : SynthPatch = SimpleSinePatch;
 
     /** name of the active patch */
     get voice() { return this.patch.name; }
