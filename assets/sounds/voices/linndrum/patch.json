@@ -9,6 +9,7 @@
     "name": "LinnDrum",
     "source": "https://www.drumkito.com/sample-packs/linndrum-sample-pack/",
     "author": "majortom@muc.de",
+    "credit": "Audio source: www.drumkito.com",
     "nodes": [
         {
             "A": 0,
