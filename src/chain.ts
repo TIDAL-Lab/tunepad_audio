@@ -16,10 +16,12 @@ import {
     SynthFilterNode,
     SynthNode,
     OutNode,
+    SynthCompressorNode,
     SynthSampleNode, 
     SynthOscNode,
     EffectCurve,
     SynthConstNode,
+    SynthDelayNode,
     SynthConnector } from './nodes';
 import { toStr } from './utils';
 
@@ -176,7 +178,7 @@ export class SynthChain {
 
             //case 'bitcrush': return SynthBitCrushNode(context, config);
 
-            //case 'compressor': return SynthCompressorNode(context, config);
+            case 'compressor': return new SynthCompressorNode(context, config);
 
             case 'const': return new SynthConstNode(context, config);
 
@@ -203,7 +205,7 @@ export class SynthChain {
 
             //case 'pwm': return SynthPWMNode(context, config);
 
-            //case 'delay': return SynthDelayNode(context, config);
+            case 'delay': return new SynthDelayNode(context, config);
 
             case 'adsr': return new ADSRNode(context, config);
 
