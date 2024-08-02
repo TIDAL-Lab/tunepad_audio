@@ -8,6 +8,7 @@
     "author": "https://www.pianobook.co.uk/profile/thelab/",
     "license": "https://www.pianobook.co.uk/about/",
     "description": "Static is an 808 sample instrument made exclusively from whitenoise",
+    "credit": "Audio source: https://www.pianobook.co.uk/packs/static/",
     "nodes": [
         {
             "A": 0,
