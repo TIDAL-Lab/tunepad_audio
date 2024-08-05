@@ -19,9 +19,12 @@ import {
     SynthCompressorNode,
     SynthSampleNode, 
     SynthOscNode,
+    SynthInverterNode,
     EffectCurve,
     SynthConstNode,
     SynthDelayNode,
+    SynthPannerNode,
+    SynthStereoNode,
     SynthConnector } from './nodes';
 import { toStr } from './utils';
 
@@ -186,14 +189,14 @@ export class SynthChain {
 
             case 'gain': return new SynthNode(context, config);
 
-            //case 'inverter': return SynthInverterNode(context, config);
+            case 'inverter': return new SynthInverterNode(context, config);
 
             case 'lfo':
                 const lfo = new SynthOscNode(context, config);
                 lfo.gain.gain.value = 1.0;
                 return lfo;
 
-            //case 'fm': return SynthOscNode(context, config);
+            case 'fm': return new SynthOscNode(context, config);
 
             //case 'modal': return SynthModalNode(context, config);
 
@@ -201,7 +204,7 @@ export class SynthChain {
 
             case 'osc': return new SynthOscNode(context, config);
 
-            //case 'panner': return SynthPannerNode(context, config);
+            case 'panner': return new SynthPannerNode(context, config);
 
             //case 'pwm': return SynthPWMNode(context, config);
 
@@ -221,7 +224,7 @@ export class SynthChain {
 
             case 'drums': return new SynthSampleNode(context, config);
 
-            //case 'stereo': return SynthStereoNode(context, config);
+            case 'stereo': return new SynthStereoNode(context, config);
 
             default:
                 console.log(`Node not found: ${config['type']}`);
