@@ -154,6 +154,9 @@ export class SynthSampleNode extends SynthNode {
                 //source?.detune?.value = detune;
                 source.playbackRate.value = pb * this.playback;
 
+                // FUTURE: You can loop audio for drone effects
+                //source.loop = true;
+                
                 source.start(when + now, offset);
                 if (duration > 0) {
                     source.stop(when + now + duration + release);

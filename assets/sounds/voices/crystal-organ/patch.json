@@ -1,0 +1,212 @@
+{
+    "patch_id": 78,
+    "description": "Organ from Crystal Waters' Gypsy Woman. Needs a lil more work.",
+    "author": "Dillon Hall",
+    "format": "tunepad-patch",
+    "instrument": "piano",
+    "username": "pesto_cat",
+    "created": "2022-02-21 19:45:53.083",
+    "modified": "2022-03-08 21:58:17.403",
+    "name": "Crystal Organ",
+    "nodes": [
+      {
+        "A": 0.0,
+        "D": 0.1,
+        "R": 0.15,
+        "S": 1,
+        "a shape": 4,
+        "cx": 80.9807510375977,
+        "cy": 60.7601550221443,
+        "d shape": 2,
+        "id": 0,
+        "level": 0,
+        "r shape": 2,
+        "type": "out"
+      },
+      {
+        "amplitude-mod": 0.5,
+        "cx": -205.415199279785,
+        "cy": -10.2461004257202,
+        "detune": 0,
+        "detune-mod": 5,
+        "frequency": 440,
+        "frequency-mod": 800,
+        "id": 2,
+        "level": -5,
+        "multiplier": 1,
+        "relative": true,
+        "type": "osc",
+        "waveform": "triangle"
+      },
+      {
+        "amplitude-mod": 0.5,
+        "cx": -206.438087463379,
+        "cy": 59.2960510253906,
+        "detune": 0,
+        "detune-mod": 5.6,
+        "frequency": 440,
+        "frequency-mod": 800,
+        "id": 3,
+        "level": -5,
+        "multiplier": 3,
+        "relative": true,
+        "type": "osc",
+        "waveform": "triangle"
+      },
+      {
+        "A": 0.00681818181818189,
+        "D": 0.557954545454546,
+        "R": 0.203409090909091,
+        "S": 0.271590909090909,
+        "a shape": 4,
+        "cx": -146.410003662109,
+        "cy": 59.2960472106934,
+        "d shape": 2,
+        "id": 4,
+        "level": 0,
+        "r shape": 2,
+        "type": "adsr"
+      },
+      {
+        "A": 0.0181818181818182,
+        "D": 0.234090909090909,
+        "R": 0.203409090909091,
+        "S": 0.470454545454545,
+        "a shape": 4,
+        "cx": -147.142044067383,
+        "cy": -10.2487106323242,
+        "d shape": 2,
+        "id": 5,
+        "level": 0,
+        "r shape": 2,
+        "type": "adsr"
+      },
+      {
+        "Q": 4.69318181818182,
+        "Q-mod": 10,
+        "cx": -57.0998992919922,
+        "cy": 60.02809715271,
+        "filter type": "lowpass",
+        "frequency": 793.999999999999,
+        "frequency-mod": 650,
+        "gain": 0,
+        "gain-mod": 250,
+        "id": 6,
+        "level": 0,
+        "tracking": true,
+        "tracking ratio": 1,
+        "type": "filter"
+      },
+      {
+        "cx": -204.241958618164,
+        "cy": 134.697219848633,
+        "id": 8,
+        "signal": -1,
+        "type": "const"
+      },
+      {
+        "A": 0.143181818181818,
+        "D": 0.103409090909091,
+        "R": 0.3,
+        "S": 1,
+        "a shape": 4,
+        "cx": -144.945907592773,
+        "cy": 134.69718170166,
+        "d shape": 2,
+        "id": 9,
+        "level": 0,
+        "r shape": 2,
+        "type": "adsr"
+      },
+      {
+        "amplitude-mod": 0.5,
+        "cx": -277.446960449219,
+        "cy": 59.2960395812988,
+        "detune": 0,
+        "detune-mod": 20,
+        "frequency": 3.45760419400806,
+        "frequency-mod": 30,
+        "id": 11,
+        "level": 1.22368251691289,
+        "relative": false,
+        "type": "lfo",
+        "waveform": "sine"
+      }
+    ],
+    "parameters": [
+      {
+        "label": "VIBRATO",
+        "max": 10,
+        "min": 0,
+        "name": "detune-mod",
+        "node": 2,
+        "slot": 1,
+        "value": 5
+      }
+    ],
+    "routing": [
+      {
+        "dest": 5,
+        "id": 8,
+        "level": 0,
+        "source": 2,
+        "type": "audio"
+      },
+      {
+        "dest": 4,
+        "id": 11,
+        "level": 0,
+        "source": 3,
+        "type": "audio"
+      },
+      {
+        "dest": 6,
+        "id": 14,
+        "level": 0,
+        "source": 4,
+        "type": "audio"
+      },
+      {
+        "dest": 6,
+        "id": 17,
+        "level": 0,
+        "source": 5,
+        "type": "audio"
+      },
+      {
+        "dest": 0,
+        "id": 20,
+        "level": -0.221843003412985,
+        "source": 6,
+        "type": "audio"
+      },
+      {
+        "dest": 9,
+        "id": 23,
+        "level": 0,
+        "source": 8,
+        "type": "audio"
+      },
+      {
+        "dest": 6,
+        "id": 26,
+        "level": 0,
+        "source": 9,
+        "type": "frequency"
+      },
+      {
+        "dest": 2,
+        "id": 29,
+        "level": 0,
+        "source": 11,
+        "type": "detune"
+      }
+    ],
+    "version": "2.0",
+    "view": {
+      "height": 14641,
+      "width": 14641,
+      "x": -371.881397714233,
+      "y": -55.6358090209961
+    }
+}

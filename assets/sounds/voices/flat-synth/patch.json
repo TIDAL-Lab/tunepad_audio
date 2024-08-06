@@ -1,0 +1,63 @@
+{
+    "patch_id": 10,
+    "created": "2022-02-24 13:20:08.940",
+    "modified": "2022-03-08 22:10:22.097",
+    "description": "Flat Korg NSR5",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "name": "Flat Synth",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.0284090909090909,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "cx": 123.5,
+            "cy": 68.0000004768372,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "cx": -32.500002861023,
+            "cy": 67.5,
+            "detune": 0,
+            "detune-mod": 20,
+            "id": 5,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "flat synth",
+            "samples": [
+                {
+                    "sample": "korg-NSR5-C3",
+                    "step": 36
+                },
+                {
+                    "sample": "korg-NSR5-C4",
+                    "step": 48
+                }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -145.5,
+        "y": 1
+    }
+}

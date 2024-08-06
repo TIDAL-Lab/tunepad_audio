@@ -2,6 +2,9 @@ import { Note } from "./note";
 import { MusicTrace } from "./trace";
 import { SynthChain } from "./chain";
 import { SynthParameter } from "./param";
+/**
+ * A SynthPatch specifies how an instrument/voice generates audio
+ */
 export interface SynthPatch {
     name: string;
     nodes: Array<any>;
@@ -9,11 +12,16 @@ export interface SynthPatch {
     version: string;
     format: string;
     parameters: Array<any>;
+    credit?: string;
 }
 /**
  * List of built-in patch names
  */
 export type BuiltinPatchName = ("simple-sine" | "simple-saw" | "simple-square" | "simple-tri" | "filtered-saw" | "wobbly-square");
+/**
+ * Patches can be specified as a built-in name (string), a patch object,
+ * or a URL referring to a `patch.json` object.
+ */
 export type SynthPatchRef = BuiltinPatchName | SynthPatch | URL;
 /**
  * Polyphonic audio synthesizer.
@@ -28,7 +36,7 @@ export declare class Synthesizer {
     /** list of currently scheduled or playing notes */
     private notes;
     /** the patch is a chain of samples and audio nodes that produce notes */
-    private patch;
+    patch: SynthPatch;
     /** name of the active patch */
     get voice(): string;
     /** bank of tone generators that we can check out to play notes */
@@ -43,7 +51,7 @@ export declare class Synthesizer {
     private _effects;
     /**
      * Create a new synthesizer
-     * @param patch optional name of the patch to load (e.g. "grand_piano")
+     * @param patch optional patch to load (e.g. "simple-sine")
      */
     constructor(patch?: SynthPatchRef);
     /**
@@ -69,7 +77,14 @@ export declare class Synthesizer {
      * Release a sustained note event
      */
     private _release;
-    scheduleNote(note: Note, dest: AudioNode, start: number, delta?: number): SynthChain | undefined;
+    /**
+     * Schedule a note to be played in the future.
+     * @param note note to be scheduled.
+     * @param start when to play the note in beats (using synth's tempo setting)
+     * @param delta time before the start of the next measure (in beats). if negative, it means to skip the beginning of a loop
+     * @param dest optional audio destination. By default it plays to AudioContext.destination
+     */
+    scheduleNote(note: Note | number, start: number, delta?: number, dest?: AudioNode): SynthChain | undefined;
     /**
         scheduleSound(note: Note, soundURL: string, dest: AudioNode, start: number, delta: number = 0): SynthChain | null {
             const now = dest.context.currentTime;
@@ -82,6 +97,7 @@ export declare class Synthesizer {
             return generator;
         }
     */
+    /** cancel all scheduled notes */
     cancelAllNotes(): void;
     scheduleNotes(trace: MusicTrace, dest: AudioNode, delta: number): void;
     /**
@@ -94,11 +110,19 @@ export declare class Synthesizer {
      */
     scheduleMidiNotes(trace: MusicTrace, delta: number, port: MIDIOutput, gain?: number): void;
     /**
+     * Send a single NOTE_ON event to a MIDI output port
+     */
+    playMidiNote(note: Note | number, port: MIDIOutput): void;
+    /**
+     * Send a single NOTE_OFF event to a MIDI output port
+     */
+    releaseMidiNote(note: Note | number, port: MIDIOutput): void;
+    /**
      * Sets the MIDI output "program" or instrument voice
      */
     setMidiProgram(port: MIDIOutput, voice: number): void;
     /**
-     * Send noteOff to all possible midi note values
+     * Send NOTE_OFF to all possible midi note values
      */
     cancelAllMidiNotes(port: MIDIOutput): void;
     /**
@@ -127,12 +151,6 @@ export declare class Synthesizer {
      */
     private _loadPatchURL;
     private _loadPatchData;
-    /**
-     * Return a synthesizer node (modular synth node) matching the given
-     * node id number. node from the first tone generator will be used.
-     * return undefined if there are not tone generators or no matching nodes
-     */
-    private getNodeById;
     /**
      * Update parameter value for all playing and scheduled notes
      */

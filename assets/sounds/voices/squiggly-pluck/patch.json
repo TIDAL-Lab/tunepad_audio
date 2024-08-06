@@ -1,0 +1,80 @@
+{
+    "patch_id": 255,
+    "name": "Squiggly Pluck",
+    "description": "it squiggles",
+    "author": "pesto_cat",
+    "created": "2022-03-01 12:42:21.233",
+    "modified": "2022-03-08 16:21:40.709",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "nodes": [
+        {
+            "A": 0.01,
+            "D": 0.259090909090909,
+            "R": 0.354545454545454,
+            "S": 0.0897727272727277,
+            "a shape": 4,
+            "cx": 70,
+            "cy": 0,
+            "d shape": 0.494318181818183,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 0,
+            "cy": 0,
+            "detune": 0,
+            "detune-mod": 10,
+            "frequency": 440,
+            "frequency-mod": 400,
+            "id": 1,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "square"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -100,
+            "cy": -0.5,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 3.4,
+            "frequency-mod": 30,
+            "id": 2,
+            "level": -10.0570018714007,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 2,
+            "level": 0,
+            "source": 1,
+            "type": "audio"
+        },
+        {
+            "dest": 1,
+            "id": 5,
+            "level": -25.0682593856655,
+            "source": 2,
+            "type": "frequency"
+        }
+    ],
+    "uid": "1143a2c0-9f2e-11ec-97f9-511bec20adec",
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+    }
+}

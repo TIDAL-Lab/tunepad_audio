@@ -1,0 +1,70 @@
+{
+    "patch_id": 222,
+    "name": "Strings",
+    "instrument": "piano",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "String samples from a Yamaha P-105",
+    "source": "Yamaha P-105",
+    "nodes": [
+        {
+            "A": 0.05,
+            "D": 0.1,
+            "R": 1.0,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 0.0,
+            "r shape": 0.25,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "strings",
+            "samples": [
+                { "sample": "12noteC0", "step": 12 },
+                { "sample": "24noteC1", "step": 24 },
+                { "sample": "28noteE1", "step": 28 },
+                { "sample": "31noteG1", "step": 31 },
+
+                { "sample": "36noteC2", "step": 36 },
+                { "sample": "40noteE2", "step": 40 },
+                { "sample": "43noteG2", "step": 43 },
+
+                { "sample": "48noteC3", "step": 48 },
+                { "sample": "52noteE3", "step": 52 },
+                { "sample": "55noteG3", "step": 55 },
+
+                { "sample": "60noteC4", "step": 60 },
+                { "sample": "64noteE4", "step": 64 },
+                { "sample": "67noteG4", "step": 67 },
+
+                { "sample": "72noteC5", "step": 72 },
+                { "sample": "76noteE5", "step": 76 },
+                { "sample": "79noteG5", "step": 79 },
+
+                { "sample": "84noteC6", "step": 84 },
+                { "sample": "88noteE6", "step": 88 },
+                { "sample": "91noteG6", "step": 91 },
+
+                { "sample": "96noteC7", "step": 96 },
+                { "sample": "100noteE7", "step": 100 },
+                { "sample": "103noteG7", "step": 103 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"const.d.ts","sourceRoot":"","sources":["../../../src/nodes/const.ts"],"names":[],"mappings":"AAYA,OAAO,EAAE,SAAS,EAAE,MAAM,QAAQ,CAAC;AAOnC,qBAAa,cAAe,SAAQ,SAAS;IAG3C,GAAG,EAAG,kBAAkB,CAAC;gBAGb,OAAO,EAAE,gBAAgB,EAAE,MAAM,EAAG,GAAG;IAQnD,OAAO;IAOP,eAAe,CAAC,KAAK,EAAG,MAAM,EAAE,QAAQ,EAAG,GAAG;CAM/C"}

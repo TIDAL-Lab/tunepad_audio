@@ -1,0 +1,118 @@
+{
+    "patch_id": 97,
+    "created": "2022-03-01 21:59:12.607",
+    "modified": "2022-03-11 15:17:27.572",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "bass",
+    "name": "Triangle Bass",
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0.05,
+            "D": 0.1,
+            "R": 0.149999999999998,
+            "S": 1,
+            "a shape": 7,
+            "cx": 91.5,
+            "cy": 48.5,
+            "d shape": 2,
+            "id": 0,
+            "level": 0.0871661129195395,
+            "r shape": 1.6875,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -74.5,
+            "cy": -8,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 2,
+            "level": -1.0602523533775,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -107,
+            "cy": 48.5,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 3,
+            "level": -1.1597992136994,
+            "multiplier": 1.001,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -77,
+            "cy": 103,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 4,
+            "level": -1.06025235337751,
+            "multiplier": 0.99,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "cx": 29,
+            "cy": 48.5,
+            "gain-mod": 0.5,
+            "id": 5,
+            "level": 5.98976109215018,
+            "type": "gain"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 5,
+            "id": 14,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 13,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 12,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 15,
+            "level": 2.44027303754266,
+            "source": 5,
+            "type": "audio"
+        }
+    ],
+    "submenu": "",
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+    }
+}

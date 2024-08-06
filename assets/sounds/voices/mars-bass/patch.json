@@ -1,0 +1,61 @@
+{
+    "patch_id": 303,
+    "name": "Mars Bass",
+    "instrument": "bass",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "80s Synth Analog Bass Sound",
+    "source": "https://www.pianobook.co.uk/packs/deep-jupiter/",
+    "author": "https://www.pianobook.co.uk/profile/samplescience/",
+    "license": "https://www.pianobook.co.uk/about/", 
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": -5,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "jupiter-bass",
+            "samples": [
+                { "sample": "36noteC2", "step": 36 },
+                { "sample": "38noteD2", "step": 38 },
+                { "sample": "40noteE2", "step": 40 },
+                { "sample": "41noteF2", "step": 41 },
+                { "sample": "43noteG2", "step": 43 },
+                { "sample": "45noteA2", "step": 45 },
+                { "sample": "47noteB2", "step": 47 },
+                { "sample": "48noteC3", "step": 48 },
+                { "sample": "50noteD3", "step": 50 },
+                { "sample": "52noteE3", "step": 52 },
+                { "sample": "53noteF3", "step": 53 },
+                { "sample": "55noteG3", "step": 55 },
+                { "sample": "57noteA3", "step": 57 },
+                { "sample": "59noteB3", "step": 59 },
+                { "sample": "60noteC4", "step": 60 },
+                { "sample": "65noteF4", "step": 65 },
+                { "sample": "72noteC5", "step": 72 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}

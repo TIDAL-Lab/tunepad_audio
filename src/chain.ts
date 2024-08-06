@@ -16,9 +16,15 @@ import {
     SynthFilterNode,
     SynthNode,
     OutNode,
+    SynthCompressorNode,
     SynthSampleNode, 
     SynthOscNode,
+    SynthInverterNode,
     EffectCurve,
+    SynthConstNode,
+    SynthDelayNode,
+    SynthPannerNode,
+    SynthStereoNode,
     SynthConnector } from './nodes';
 import { toStr } from './utils';
 
@@ -175,22 +181,22 @@ export class SynthChain {
 
             //case 'bitcrush': return SynthBitCrushNode(context, config);
 
-            //case 'compressor': return SynthCompressorNode(context, config);
+            case 'compressor': return new SynthCompressorNode(context, config);
 
-            //case 'const': return SynthConstNode(context, config);
+            case 'const': return new SynthConstNode(context, config);
 
             //case 'distortion': return SynthDistortionNode(context, config);
 
             case 'gain': return new SynthNode(context, config);
 
-            //case 'inverter': return SynthInverterNode(context, config);
+            case 'inverter': return new SynthInverterNode(context, config);
 
             case 'lfo':
                 const lfo = new SynthOscNode(context, config);
                 lfo.gain.gain.value = 1.0;
                 return lfo;
 
-            //case 'fm': return SynthOscNode(context, config);
+            case 'fm': return new SynthOscNode(context, config);
 
             //case 'modal': return SynthModalNode(context, config);
 
@@ -198,11 +204,11 @@ export class SynthChain {
 
             case 'osc': return new SynthOscNode(context, config);
 
-            //case 'panner': return SynthPannerNode(context, config);
+            case 'panner': return new SynthPannerNode(context, config);
 
             //case 'pwm': return SynthPWMNode(context, config);
 
-            //case 'delay': return SynthDelayNode(context, config);
+            case 'delay': return new SynthDelayNode(context, config);
 
             case 'adsr': return new ADSRNode(context, config);
 
@@ -218,7 +224,7 @@ export class SynthChain {
 
             case 'drums': return new SynthSampleNode(context, config);
 
-            //case 'stereo': return SynthStereoNode(context, config);
+            case 'stereo': return new SynthStereoNode(context, config);
 
             default:
                 console.log(`Node not found: ${config['type']}`);

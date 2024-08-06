@@ -10,24 +10,11 @@
  * material are those of the author(s) and do not necessarily reflect the views
  * of the National Science Foundation (NSF).
  */
-import { MusicTrace, TraceEvent } from "./trace";
 
 export type MIDISource = "pointer" | "keyboard" | "midi" | "system";
 
-export interface MIDIEventProps {
-    note? : number,         // midi note value (0 - 127)
-    velocity? : number,     // midi note velocity (0 - 127)
-    value? : number,        // value of pitch bend or control
-    time? : number,
-    message : "note-on" | "note-off" | "pitch-bend",
-    source : MIDISource
-}
-
-const MEDefaults : MIDIEventProps = {
-    note : 0,
-    velocity : 90,
-    message : "note-on",
-    source : "pointer"
+export interface MIDIEventListener {
+    onMidiInput : (e : MIDIEvent) => void;
 }
 
 /**
@@ -35,18 +22,40 @@ const MEDefaults : MIDIEventProps = {
  */
 export class MIDIEvent {
 
-    readonly props : MIDIEventProps;
+    /** raw midi message code (e.g. 8, 9, 14) */
+    code : number = 0;
 
-    get customEvent() : CustomEvent { 
-        return new CustomEvent(this.props.message, {
-            bubbles: true,
-            composed: true,
-            detail: this.props 
-        }); 
+    /** MIDI message (only three messages supported for now) */
+    message : "note-on" | "note-off" | "pitch-bend" | "unknown";
+
+    /** MIDI note number if applicable */
+    note : number = -1;
+
+    /** Note velocity if applicable */
+    private _velocity : number = 0;
+    get velocity() : number { return this._velocity; }
+    set velocity(v : number) {
+        this._velocity = v;
+        if (v === 0 && this.code === 9) {
+            this.code = 8;
+            this.message = 'note-off';
+        }
     }
-    
-    constructor(props : MIDIEventProps) {
-        this.props = { ...MEDefaults, ...props, ...{ time: Date.now() } };
+
+    /** Command value (e.g. for pitch bend amount) */
+    value : number = 0;
+
+    /** MIDI Channel (typically 0) */
+    channel : number = 0;
+
+    constructor(code : number) {
+        this.code = code;
+        switch (code) {
+            case 9: this.message = 'note-on'; break;
+            case 8: this.message = 'note-off'; break;
+            case 14: this.message = 'pitch-bend'; break;
+            default: this.message = 'unknown';
+        }
     }
 }
 
@@ -61,6 +70,8 @@ export class MIDIManager {
     // javascript's builtin access object
     private access ? : MIDIAccess;
 
+    private static listeners = new Set<MIDIEventListener>();
+
 
     /**
      * Singleton instance initializer. Can safely be called multiple times.
@@ -69,6 +80,14 @@ export class MIDIManager {
         if (!MIDIManager.instance) {
             MIDIManager.instance = new MIDIManager();
         }
+    }
+
+    public static addListener(listener : MIDIEventListener) {
+        MIDIManager.listeners.add(listener);
+    }
+
+    public static removeListener(listener : MIDIEventListener) {
+        MIDIManager.listeners.delete(listener);
     }
 
     /**
@@ -104,10 +123,8 @@ export class MIDIManager {
                 this.access = midi;
                 console.log("Connected to MIDI.");
                 midi.addEventListener("statechange", (e) => this._midiConnection(e));
-                //for (let input of midi.inputs.values()) {
-                //    input.onmidimessage = _midiEvent;
-                //}
                 midi.outputs.forEach((out) => out.open());
+                midi.inputs.forEach((input) => input.onmidimessage = this._midiEvent);
             },
             () => { console.log("Failed to initialize web MIDI."); }
         );
@@ -130,18 +147,20 @@ export class MIDIManager {
         }
     }
 
-    /**
-     * Processes incoming midi events and send it to listeners
-     */
-    private _midiEvent(event : MIDIMessageEvent) {
-        if (event.data && event.data.length >= 2) {
-            let cmd = event.data[0] >> 4;
-            let channel = event.data[0] & 0xf;
-            let note = event.data[1];
-            let velocity = 0;
-            if (event.data.length >= 3) velocity = event.data[2];
-            console.log(cmd, channel, note, velocity);
-            // FIXME : callback or listener dist
+    private _midiEvent(e : MIDIMessageEvent) {
+        if (e.data && e.data.length >= 2) {
+            const me = new MIDIEvent(e.data[0] >> 4);
+            me.channel = e.data[0] & 0xf;
+            me.note = e.data[1];
+            if (e.data.length >= 3) {
+                me.velocity = e.data[2];
+            }
+
+            /// FIXME: pitch bend value isn't working quite right
+            if (me.message === 'pitch-bend' && e.data.length >= 3) {
+                me.value = ((e.data[2] << 7) | (e.data[1] & 0x7f)) - 0x2000;
+            }
+            MIDIManager.listeners.forEach((l) => l.onMidiInput(me));
         }
     }
 }

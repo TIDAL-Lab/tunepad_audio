@@ -1,0 +1,135 @@
+{
+    "name": "Sirens and Horns",
+    "created": "2022-02-26 22:38:16.836",
+    "modified": "2022-03-08 11:18:31.592",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "drums",
+    "patch_id": 205,
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 0.988636363636364,
+            "a shape": 4,
+            "cx": 70,
+            "cy": 0,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "cx": -29.5000019073486,
+            "cy": -4.76837158203125e-7,
+            "detune": 0,
+            "detune-mod": 20,
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "horns",
+            "samples": [
+                {
+                    "name": "air horn",
+                    "sample": "honk1",
+                    "step": 0
+                },
+                {
+                    "name": "car horn",
+                    "sample": "horn2",
+                    "step": 1
+                },
+                {
+                    "name": "car horn",
+                    "sample": "horn3",
+                    "step": 2
+                },
+                {
+                    "name": "fog horn",
+                    "sample": "horn4",
+                    "step": 3
+                },
+                {
+                    "name": "car horn",
+                    "sample": "horn5",
+                    "step": 4
+                },
+                {
+                    "name": "siren",
+                    "sample": "siren1",
+                    "step": 5
+                },
+                {
+                    "name": "siren",
+                    "sample": "siren2",
+                    "step": 6
+                },
+                {
+                    "name": "siren",
+                    "sample": "siren3",
+                    "step": 7
+                },
+                {
+                    "name": "siren",
+                    "sample": "siren4",
+                    "step": 8
+                },
+                {
+                    "name": "siren",
+                    "sample": "siren6",
+                    "step": 9
+                },
+                {
+                    "name": "air siren",
+                    "sample": "siren7",
+                    "step": 10
+                },
+                {
+                    "name": "siren",
+                    "sample": "siren8",
+                    "step": 11
+                },
+                {
+                    "name": "train horn",
+                    "sample": "horn9",
+                    "step": 12
+                },
+                {
+                    "name": "clown horn",
+                    "sample": "horn6",
+                    "step": 13
+                },
+                {
+                    "name": "truck horn",
+                    "sample": "horn7",
+                    "step": 14
+                },
+                {
+                    "name": "bike horn",
+                    "sample": "horn8",
+                    "step": 15
+                }
+            ],
+            "type": "drums"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+    }
+}
