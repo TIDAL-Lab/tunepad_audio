@@ -1,0 +1,138 @@
+{
+    "patch_id": 252,
+    "created": "2022-02-21 19:41:24.169",
+    "modified": "2022-03-08 20:21:31.836",
+    "description": "I'm allergic",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "name": "Buzz Buzz",
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0.0147727272727273,
+            "D": 0.1,
+            "R": 0.0988636363636364,
+            "S": 1,
+            "a shape": 4,
+            "cx": 113.789024353027,
+            "cy": 53,
+            "d shape": 2,
+            "id": 0,
+            "level": 5.78596479931972e-15,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -107.178512573242,
+            "cy": -5.18933486938477,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 2,
+            "level": 0.0530008941805149,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "soft saw"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -106.178512573242,
+            "cy": 52.1792869567871,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 4,
+            "level": -7.72204496745035,
+            "multiplier": 1.5,
+            "relative": true,
+            "type": "osc",
+            "waveform": "soft square"
+        },
+        {
+            "Q": 11.2272727272727,
+            "Q-mod": 10,
+            "cx": -4.77356976270676,
+            "cy": 51.7735710144043,
+            "filter type": "lowpass",
+            "frequency": 2845.6484408224,
+            "frequency-mod": 1000,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 5,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "A": 0.0965909090909091,
+            "D": 0.0238636363636365,
+            "R": 0.198863636363636,
+            "S": 1,
+            "a shape": 4,
+            "cx": -104.683158874512,
+            "cy": 120.788246154785,
+            "d shape": 2,
+            "id": 6,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "cx": -205.340026855469,
+            "cy": 120.788238525391,
+            "id": 7,
+            "signal": -2.58,
+            "type": "const"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 5,
+            "id": 5,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 8,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 11,
+            "level": -2.44027303754269,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 14,
+            "level": 0,
+            "source": 6,
+            "type": "frequency"
+        },
+        {
+            "dest": 6,
+            "id": 17,
+            "level": 0,
+            "source": 7,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 16105.1,
+        "width": 16105.1,
+        "x": -271.370935,
+        "y": -80.5255
+    }
+}

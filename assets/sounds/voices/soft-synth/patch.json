@@ -1,0 +1,67 @@
+{
+    "patch_id": 223,
+    "created": "2022-02-26 22:33:50.910",
+    "modified": "2022-03-08 11:14:15.110",
+    "description": "Soft echo synth",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "name": "Soft Synth",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "cx": 68,
+            "cy": 33.0000007152557,
+            "d shape": 2,
+            "id": 0,
+            "level": 7.0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "cx": -22.0000019073486,
+            "cy": 33,
+            "detune": 0,
+            "detune-mod": 20,
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "soft synth",
+            "samples": [
+                {
+                    "sample": "SynthB2",
+                    "step": 35
+                },
+                {
+                    "sample": "SynthE3",
+                    "step": 40
+                },
+                {
+                    "sample": "SynthA3",
+                    "step": 45
+                }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 3.77133105802049,
+            "source": 2,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+    }
+}
