@@ -20,7 +20,7 @@ Clock subscribers receive events when clock properties change.
 
 #### Defined in
 
-[audio.ts:19](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L19)
+[audio.ts:19](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L19)
 
 ***
 
@@ -34,7 +34,7 @@ Clock subscribers receive events when clock properties change.
 
 #### Defined in
 
-[audio.ts:20](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L20)
+[audio.ts:20](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L20)
 
 ***
 
@@ -48,7 +48,7 @@ Clock subscribers receive events when clock properties change.
 
 #### Defined in
 
-[audio.ts:21](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L21)
+[audio.ts:21](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L21)
 
 ***
 
@@ -62,4 +62,4 @@ Clock subscribers receive events when clock properties change.
 
 #### Defined in
 
-[audio.ts:22](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L22)
+[audio.ts:22](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L22)

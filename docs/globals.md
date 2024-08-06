@@ -12,6 +12,7 @@
 - [MIDIManager](classes/MIDIManager.md)
 - [MusicTrace](classes/MusicTrace.md)
 - [Note](classes/Note.md)
+- [SoundLoader](classes/SoundLoader.md)
 - [SynthChain](classes/SynthChain.md)
 - [Synthesizer](classes/Synthesizer.md)
 - [TraceEvent](classes/TraceEvent.md)
@@ -22,7 +23,7 @@
 
 - [AudioRenderRequest](interfaces/AudioRenderRequest.md)
 - [ClockSubscriber](interfaces/ClockSubscriber.md)
-- [MIDIEventProps](interfaces/MIDIEventProps.md)
+- [MIDIEventListener](interfaces/MIDIEventListener.md)
 - [SynthPatch](interfaces/SynthPatch.md)
 
 ## Type Aliases

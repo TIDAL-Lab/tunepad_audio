@@ -27,7 +27,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:199](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L199)
+[trace.ts:199](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L199)
 
 ## Properties
 
@@ -37,7 +37,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:173](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L173)
+[trace.ts:173](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L173)
 
 ***
 
@@ -47,7 +47,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:179](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L179)
+[trace.ts:179](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L179)
 
 ***
 
@@ -57,7 +57,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:170](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L170)
+[trace.ts:170](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L170)
 
 ***
 
@@ -67,7 +67,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:185](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L185)
+[trace.ts:185](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L185)
 
 ***
 
@@ -77,7 +77,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:188](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L188)
+[trace.ts:188](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L188)
 
 ***
 
@@ -87,7 +87,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:196](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L196)
+[trace.ts:196](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L196)
 
 ***
 
@@ -97,7 +97,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:176](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L176)
+[trace.ts:176](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L176)
 
 ***
 
@@ -107,7 +107,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:193](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L193)
+[trace.ts:193](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L193)
 
 ***
 
@@ -117,7 +117,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:164](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L164)
+[trace.ts:164](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L164)
 
 ***
 
@@ -127,7 +127,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:159](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L159)
+[trace.ts:159](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L159)
 
 ***
 
@@ -137,7 +137,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:163](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L163)
+[trace.ts:163](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L163)
 
 ***
 
@@ -147,7 +147,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:162](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L162)
+[trace.ts:162](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L162)
 
 ***
 
@@ -157,7 +157,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:161](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L161)
+[trace.ts:161](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L161)
 
 ***
 
@@ -167,7 +167,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:160](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L160)
+[trace.ts:160](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L160)
 
 ## Accessors
 
@@ -181,7 +181,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:182](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L182)
+[trace.ts:182](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L182)
 
 ## Methods
 
@@ -195,7 +195,7 @@ python and then replayed to generate sounds and animation.
 
 #### Defined in
 
-[trace.ts:206](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L206)
+[trace.ts:206](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L206)
 
 ***
 
@@ -215,7 +215,7 @@ Are two trace events the same except for their line numbers
 
 #### Defined in
 
-[trace.ts:255](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L255)
+[trace.ts:255](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L255)
 
 ***
 
@@ -233,4 +233,4 @@ Are two trace events the same except for their line numbers
 
 #### Defined in
 
-[trace.ts:217](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L217)
+[trace.ts:217](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L217)

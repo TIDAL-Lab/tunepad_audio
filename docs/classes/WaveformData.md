@@ -23,7 +23,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:48](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L48)
+[waveform.ts:48](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L48)
 
 ## Properties
 
@@ -33,7 +33,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:26](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L26)
+[waveform.ts:26](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L26)
 
 ***
 
@@ -43,7 +43,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:29](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L29)
+[waveform.ts:29](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L29)
 
 ## Accessors
 
@@ -57,7 +57,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:37](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L37)
+[waveform.ts:37](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L37)
 
 ***
 
@@ -71,7 +71,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:34](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L34)
+[waveform.ts:34](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L34)
 
 ***
 
@@ -85,7 +85,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:32](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L32)
+[waveform.ts:32](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L32)
 
 ***
 
@@ -99,7 +99,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:112](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L112)
+[waveform.ts:112](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L112)
 
 ***
 
@@ -113,7 +113,7 @@ Create a new empty waveform
 
 #### Defined in
 
-[waveform.ts:106](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L106)
+[waveform.ts:106](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L106)
 
 ## Methods
 
@@ -133,7 +133,7 @@ Append the given audio data to this waveform.
 
 #### Defined in
 
-[waveform.ts:79](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L79)
+[waveform.ts:79](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L79)
 
 ***
 
@@ -153,7 +153,7 @@ Appends one waveform sample representing 256 underlying audio samples (waveQuant
 
 #### Defined in
 
-[waveform.ts:57](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L57)
+[waveform.ts:57](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L57)
 
 ***
 
@@ -173,4 +173,4 @@ Create a new buffer from the given AudioBuffer object
 
 #### Defined in
 
-[waveform.ts:99](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/waveform.ts#L99)
+[waveform.ts:99](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/waveform.ts#L99)

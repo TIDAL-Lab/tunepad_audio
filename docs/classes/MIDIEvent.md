@@ -12,11 +12,11 @@ MIDI event class
 
 ### new MIDIEvent()
 
-> **new MIDIEvent**(`props`): [`MIDIEvent`](MIDIEvent.md)
+> **new MIDIEvent**(`code`): [`MIDIEvent`](MIDIEvent.md)
 
 #### Parameters
 
-• **props**: [`MIDIEventProps`](../interfaces/MIDIEventProps.md)
+• **code**: `number`
 
 #### Returns
 
@@ -24,28 +24,84 @@ MIDI event class
 
 #### Defined in
 
-[midi.ts:48](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L48)
+[midi.ts:51](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L51)
 
 ## Properties
 
-### props
+### channel
 
-> `readonly` **props**: [`MIDIEventProps`](../interfaces/MIDIEventProps.md)
+> **channel**: `number` = `0`
+
+MIDI Channel (typically 0)
 
 #### Defined in
 
-[midi.ts:38](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L38)
+[midi.ts:49](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L49)
+
+***
+
+### code
+
+> **code**: `number` = `0`
+
+raw midi message code (e.g. 8, 9, 14)
+
+#### Defined in
+
+[midi.ts:26](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L26)
+
+***
+
+### message
+
+> **message**: `"note-on"` \| `"note-off"` \| `"pitch-bend"` \| `"unknown"`
+
+MIDI message (only three messages supported for now)
+
+#### Defined in
+
+[midi.ts:29](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L29)
+
+***
+
+### note
+
+> **note**: `number` = `-1`
+
+MIDI note number if applicable
+
+#### Defined in
+
+[midi.ts:32](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L32)
+
+***
+
+### value
+
+> **value**: `number` = `0`
+
+Command value (e.g. for pitch bend amount)
+
+#### Defined in
+
+[midi.ts:46](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L46)
 
 ## Accessors
 
-### customEvent
+### velocity
 
-> `get` **customEvent**(): `CustomEvent`\<`any`\>
+> `get` **velocity**(): `number`
+
+> `set` **velocity**(`v`): `void`
+
+#### Parameters
+
+• **v**: `number`
 
 #### Returns
 
-`CustomEvent`\<`any`\>
+`number`
 
 #### Defined in
 
-[midi.ts:40](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L40)
+[midi.ts:36](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L36)

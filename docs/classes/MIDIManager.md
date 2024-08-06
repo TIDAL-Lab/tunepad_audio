@@ -20,7 +20,7 @@ Singleton wrapper around javascript's MIDIAccess
 
 #### Defined in
 
-[midi.ts:92](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L92)
+[midi.ts:111](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L111)
 
 ***
 
@@ -34,7 +34,7 @@ Singleton wrapper around javascript's MIDIAccess
 
 #### Defined in
 
-[midi.ts:83](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L83)
+[midi.ts:102](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L102)
 
 ***
 
@@ -50,9 +50,27 @@ Is the MIDI access object ready?
 
 #### Defined in
 
-[midi.ts:77](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L77)
+[midi.ts:96](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L96)
 
 ## Methods
+
+### addListener()
+
+> `static` **addListener**(`listener`): `void`
+
+#### Parameters
+
+• **listener**: [`MIDIEventListener`](../interfaces/MIDIEventListener.md)
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[midi.ts:85](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L85)
+
+***
 
 ### init()
 
@@ -66,4 +84,22 @@ Singleton instance initializer. Can safely be called multiple times.
 
 #### Defined in
 
-[midi.ts:68](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L68)
+[midi.ts:79](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L79)
+
+***
+
+### removeListener()
+
+> `static` **removeListener**(`listener`): `void`
+
+#### Parameters
+
+• **listener**: [`MIDIEventListener`](../interfaces/MIDIEventListener.md)
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[midi.ts:89](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L89)

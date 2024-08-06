@@ -30,7 +30,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:54](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L54)
+[buffer.ts:54](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L54)
 
 ## Properties
 
@@ -40,7 +40,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:28](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L28)
+[buffer.ts:28](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L28)
 
 ## Accessors
 
@@ -54,7 +54,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:41](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L41)
+[buffer.ts:41](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L41)
 
 ***
 
@@ -68,7 +68,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:38](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L38)
+[buffer.ts:38](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L38)
 
 ***
 
@@ -82,7 +82,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:44](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L44)
+[buffer.ts:44](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L44)
 
 ***
 
@@ -96,7 +96,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:45](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L45)
+[buffer.ts:45](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L45)
 
 ***
 
@@ -110,7 +110,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:35](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L35)
+[buffer.ts:35](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L35)
 
 ***
 
@@ -124,7 +124,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:31](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L31)
+[buffer.ts:31](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L31)
 
 ***
 
@@ -138,7 +138,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:34](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L34)
+[buffer.ts:34](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L34)
 
 ## Methods
 
@@ -156,7 +156,7 @@ Create a new empty buffer with the given number of channels and sample rate
 
 #### Defined in
 
-[buffer.ts:84](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L84)
+[buffer.ts:84](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L84)
 
 ***
 
@@ -179,7 +179,7 @@ Returns this object with the new audio data appended.
 
 #### Defined in
 
-[buffer.ts:67](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L67)
+[buffer.ts:67](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L67)
 
 ***
 
@@ -195,7 +195,7 @@ Create a copy of this buffer
 
 #### Defined in
 
-[buffer.ts:125](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L125)
+[buffer.ts:125](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L125)
 
 ***
 
@@ -215,7 +215,7 @@ downloads a WAV file as a blob
 
 #### Defined in
 
-[buffer.ts:290](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L290)
+[buffer.ts:290](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L290)
 
 ***
 
@@ -233,7 +233,7 @@ downloads a WAV file as a blob
 
 #### Defined in
 
-[buffer.ts:25](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L25)
+[buffer.ts:25](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L25)
 
 ***
 
@@ -249,7 +249,7 @@ reverses the audio and returns the new buffer
 
 #### Defined in
 
-[buffer.ts:164](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L164)
+[buffer.ts:164](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L164)
 
 ***
 
@@ -266,7 +266,7 @@ The length of the buffer must be greater than zero or this will throw an excepti
 
 #### Defined in
 
-[buffer.ts:185](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L185)
+[buffer.ts:185](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L185)
 
 ***
 
@@ -280,7 +280,7 @@ The length of the buffer must be greater than zero or this will throw an excepti
 
 #### Defined in
 
-[buffer.ts:232](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L232)
+[buffer.ts:232](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L232)
 
 ***
 
@@ -296,7 +296,7 @@ encode audio buffer as a base64 encoded WAV file
 
 #### Defined in
 
-[buffer.ts:332](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L332)
+[buffer.ts:332](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L332)
 
 ***
 
@@ -319,7 +319,7 @@ Return the new buffer.
 
 #### Defined in
 
-[buffer.ts:140](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L140)
+[buffer.ts:140](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L140)
 
 ***
 
@@ -339,7 +339,7 @@ Create a new buffer from the given AudioBuffer object
 
 #### Defined in
 
-[buffer.ts:104](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L104)
+[buffer.ts:104](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L104)
 
 ***
 
@@ -359,4 +359,4 @@ load audio source from a URL. Throws an error if buffer cannot be loaded.
 
 #### Defined in
 
-[buffer.ts:113](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/buffer.ts#L113)
+[buffer.ts:113](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/buffer.ts#L113)

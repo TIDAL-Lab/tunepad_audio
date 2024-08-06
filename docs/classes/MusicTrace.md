@@ -21,7 +21,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:52](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L52)
+[trace.ts:52](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L52)
 
 ## Properties
 
@@ -31,7 +31,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:19](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L19)
+[trace.ts:19](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L19)
 
 ## Accessors
 
@@ -45,7 +45,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:29](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L29)
+[trace.ts:29](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L29)
 
 ***
 
@@ -59,7 +59,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:79](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L79)
+[trace.ts:79](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L79)
 
 ***
 
@@ -73,7 +73,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:25](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L25)
+[trace.ts:25](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L25)
 
 ***
 
@@ -87,7 +87,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:22](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L22)
+[trace.ts:22](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L22)
 
 ***
 
@@ -101,7 +101,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:41](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L41)
+[trace.ts:41](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L41)
 
 ***
 
@@ -115,7 +115,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:42](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L42)
+[trace.ts:42](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L42)
 
 ***
 
@@ -129,7 +129,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:67](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L67)
+[trace.ts:67](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L67)
 
 ***
 
@@ -143,7 +143,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:36](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L36)
+[trace.ts:36](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L36)
 
 ***
 
@@ -157,7 +157,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:37](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L37)
+[trace.ts:37](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L37)
 
 ***
 
@@ -171,7 +171,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:50](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L50)
+[trace.ts:50](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L50)
 
 ***
 
@@ -185,7 +185,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:45](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L45)
+[trace.ts:45](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L45)
 
 ***
 
@@ -199,7 +199,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:46](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L46)
+[trace.ts:46](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L46)
 
 ***
 
@@ -213,7 +213,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:75](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L75)
+[trace.ts:75](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L75)
 
 ***
 
@@ -227,7 +227,7 @@ audio events that generate music.
 
 #### Defined in
 
-[trace.ts:71](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L71)
+[trace.ts:71](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L71)
 
 ## Methods
 
@@ -247,7 +247,7 @@ Add an event to the trace
 
 #### Defined in
 
-[trace.ts:100](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L100)
+[trace.ts:100](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L100)
 
 ***
 
@@ -261,7 +261,7 @@ Add an event to the trace
 
 #### Defined in
 
-[trace.ts:54](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L54)
+[trace.ts:54](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L54)
 
 ***
 
@@ -279,7 +279,7 @@ Add an event to the trace
 
 #### Defined in
 
-[trace.ts:63](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L63)
+[trace.ts:63](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L63)
 
 ***
 
@@ -299,7 +299,7 @@ Return a list of events for the given trace group number
 
 #### Defined in
 
-[trace.ts:133](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L133)
+[trace.ts:133](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L133)
 
 ***
 
@@ -319,4 +319,4 @@ Compare two trace objects to see if they are equivalent except for line numbers
 
 #### Defined in
 
-[trace.ts:87](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/trace.ts#L87)
+[trace.ts:87](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/trace.ts#L87)

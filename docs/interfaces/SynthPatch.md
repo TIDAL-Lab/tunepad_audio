@@ -6,7 +6,19 @@
 
 # Interface: SynthPatch
 
+A SynthPatch specifies how an instrument/voice generates audio
+
 ## Properties
+
+### credit?
+
+> `optional` **credit**: `string`
+
+#### Defined in
+
+[synth.ts:44](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L44)
+
+***
 
 ### format
 
@@ -14,7 +26,7 @@
 
 #### Defined in
 
-[synth.ts:40](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L40)
+[synth.ts:42](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L42)
 
 ***
 
@@ -24,7 +36,7 @@
 
 #### Defined in
 
-[synth.ts:36](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L36)
+[synth.ts:38](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L38)
 
 ***
 
@@ -34,7 +46,7 @@
 
 #### Defined in
 
-[synth.ts:37](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L37)
+[synth.ts:39](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L39)
 
 ***
 
@@ -44,7 +56,7 @@
 
 #### Defined in
 
-[synth.ts:41](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L41)
+[synth.ts:43](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L43)
 
 ***
 
@@ -54,7 +66,7 @@
 
 #### Defined in
 
-[synth.ts:38](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L38)
+[synth.ts:40](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L40)
 
 ***
 
@@ -64,4 +76,4 @@
 
 #### Defined in
 
-[synth.ts:39](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L39)
+[synth.ts:41](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L41)

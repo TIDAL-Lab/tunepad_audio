@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[chain.ts:54](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L54)
+[chain.ts:60](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L60)
 
 ## Properties
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[chain.ts:35](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L35)
+[chain.ts:41](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L41)
 
 ***
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[chain.ts:39](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L39)
+[chain.ts:45](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L45)
 
 ***
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[chain.ts:51](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L51)
+[chain.ts:57](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L57)
 
 ***
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[chain.ts:32](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L32)
+[chain.ts:38](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L38)
 
 ***
 
@@ -72,7 +72,7 @@
 
 #### Defined in
 
-[chain.ts:42](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L42)
+[chain.ts:48](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L48)
 
 ***
 
@@ -82,7 +82,7 @@
 
 #### Defined in
 
-[chain.ts:45](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L45)
+[chain.ts:51](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L51)
 
 ***
 
@@ -92,7 +92,7 @@
 
 #### Defined in
 
-[chain.ts:48](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L48)
+[chain.ts:54](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L54)
 
 ***
 
@@ -102,7 +102,7 @@
 
 #### Defined in
 
-[chain.ts:31](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L31)
+[chain.ts:37](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L37)
 
 ***
 
@@ -120,7 +120,7 @@
 
 #### Defined in
 
-[chain.ts:306](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L306)
+[chain.ts:312](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L312)
 
 ***
 
@@ -138,7 +138,7 @@
 
 #### Defined in
 
-[chain.ts:281](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L281)
+[chain.ts:287](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L287)
 
 ## Methods
 
@@ -152,7 +152,7 @@
 
 #### Defined in
 
-[chain.ts:271](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L271)
+[chain.ts:277](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L277)
 
 ***
 
@@ -176,7 +176,7 @@
 
 #### Defined in
 
-[chain.ts:255](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L255)
+[chain.ts:261](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L261)
 
 ***
 
@@ -190,7 +190,7 @@
 
 #### Defined in
 
-[chain.ts:125](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L125)
+[chain.ts:131](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L131)
 
 ***
 
@@ -204,7 +204,7 @@
 
 #### Defined in
 
-[chain.ts:131](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L131)
+[chain.ts:137](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L137)
 
 ***
 
@@ -224,7 +224,7 @@
 
 #### Defined in
 
-[chain.ts:260](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L260)
+[chain.ts:266](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L266)
 
 ***
 
@@ -238,7 +238,7 @@
 
 #### Defined in
 
-[chain.ts:119](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L119)
+[chain.ts:125](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L125)
 
 ***
 
@@ -262,7 +262,7 @@
 
 #### Defined in
 
-[chain.ts:265](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L265)
+[chain.ts:271](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L271)
 
 ***
 
@@ -280,7 +280,7 @@
 
 #### Defined in
 
-[chain.ts:238](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L238)
+[chain.ts:244](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L244)
 
 ***
 
@@ -298,7 +298,7 @@
 
 #### Defined in
 
-[chain.ts:147](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L147)
+[chain.ts:153](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L153)
 
 ***
 
@@ -316,7 +316,7 @@
 
 #### Defined in
 
-[chain.ts:137](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L137)
+[chain.ts:143](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L143)
 
 ***
 
@@ -336,7 +336,7 @@
 
 #### Defined in
 
-[chain.ts:61](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L61)
+[chain.ts:67](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L67)
 
 ***
 
@@ -350,7 +350,7 @@
 
 #### Defined in
 
-[chain.ts:74](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L74)
+[chain.ts:80](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L80)
 
 ***
 
@@ -374,7 +374,7 @@
 
 #### Defined in
 
-[chain.ts:79](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L79)
+[chain.ts:85](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L85)
 
 ***
 
@@ -394,7 +394,7 @@
 
 #### Defined in
 
-[chain.ts:142](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L142)
+[chain.ts:148](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L148)
 
 ***
 
@@ -416,7 +416,7 @@
 
 #### Defined in
 
-[chain.ts:249](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L249)
+[chain.ts:255](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L255)
 
 ***
 
@@ -438,4 +438,4 @@
 
 #### Defined in
 
-[chain.ts:243](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/chain.ts#L243)
+[chain.ts:249](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/chain.ts#L249)

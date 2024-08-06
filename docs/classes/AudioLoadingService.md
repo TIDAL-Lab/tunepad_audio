@@ -31,7 +31,7 @@ if the goal is to create a waveform visualization.
 
 #### Defined in
 
-[loader.ts:107](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/loader.ts#L107)
+[loader.ts:107](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/loader.ts#L107)
 
 ***
 
@@ -45,7 +45,7 @@ if the goal is to create a waveform visualization.
 
 #### Defined in
 
-[loader.ts:113](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/loader.ts#L113)
+[loader.ts:113](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/loader.ts#L113)
 
 ***
 
@@ -63,7 +63,7 @@ if the goal is to create a waveform visualization.
 
 #### Defined in
 
-[loader.ts:118](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/loader.ts#L118)
+[loader.ts:118](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/loader.ts#L118)
 
 ***
 
@@ -83,4 +83,4 @@ Requests offline audio render of the given resource.
 
 #### Defined in
 
-[loader.ts:93](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/loader.ts#L93)
+[loader.ts:93](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/loader.ts#L93)

@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[midi.ts:15](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/midi.ts#L15)
+[midi.ts:14](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/midi.ts#L14)

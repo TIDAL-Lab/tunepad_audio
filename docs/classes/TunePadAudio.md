@@ -17,7 +17,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:97](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L97)
+[audio.ts:97](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L97)
 
 ***
 
@@ -27,7 +27,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:106](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L106)
+[audio.ts:106](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L106)
 
 ## Accessors
 
@@ -41,7 +41,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:62](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L62)
+[audio.ts:62](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L62)
 
 ***
 
@@ -55,7 +55,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:88](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L88)
+[audio.ts:88](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L88)
 
 ***
 
@@ -69,7 +69,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:58](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L58)
+[audio.ts:58](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L58)
 
 ***
 
@@ -89,7 +89,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:48](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L48)
+[audio.ts:48](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L48)
 
 ***
 
@@ -103,7 +103,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:71](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L71)
+[audio.ts:71](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L71)
 
 ***
 
@@ -117,7 +117,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:100](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L100)
+[audio.ts:100](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L100)
 
 ***
 
@@ -137,7 +137,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:66](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L66)
+[audio.ts:66](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L66)
 
 ***
 
@@ -157,7 +157,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:53](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L53)
+[audio.ts:53](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L53)
 
 ***
 
@@ -171,7 +171,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:74](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L74)
+[audio.ts:74](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L74)
 
 ***
 
@@ -185,7 +185,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:77](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L77)
+[audio.ts:77](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L77)
 
 ## Methods
 
@@ -203,7 +203,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:121](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L121)
+[audio.ts:121](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L121)
 
 ***
 
@@ -221,7 +221,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:245](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L245)
+[audio.ts:245](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L245)
 
 ***
 
@@ -239,7 +239,7 @@ and synchronize multiple subscribers playing at the same time.
 
 #### Defined in
 
-[audio.ts:130](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L130)
+[audio.ts:130](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L130)
 
 ***
 
@@ -259,7 +259,7 @@ Pause this subscriber only ...
 
 #### Defined in
 
-[audio.ts:150](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L150)
+[audio.ts:150](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L150)
 
 ***
 
@@ -279,7 +279,7 @@ Start playing for this subscriber
 
 #### Defined in
 
-[audio.ts:138](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L138)
+[audio.ts:138](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L138)
 
 ***
 
@@ -297,7 +297,7 @@ Start playing for this subscriber
 
 #### Defined in
 
-[audio.ts:125](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L125)
+[audio.ts:125](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L125)
 
 ***
 
@@ -315,7 +315,7 @@ Start playing for this subscriber
 
 #### Defined in
 
-[audio.ts:183](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L183)
+[audio.ts:183](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L183)
 
 ***
 
@@ -335,7 +335,7 @@ Automatically stops all subscribers
 
 #### Defined in
 
-[audio.ts:175](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L175)
+[audio.ts:175](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L175)
 
 ***
 
@@ -353,7 +353,7 @@ Automatically stops all subscribers
 
 #### Defined in
 
-[audio.ts:195](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L195)
+[audio.ts:195](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L195)
 
 ***
 
@@ -371,7 +371,7 @@ Automatically stops all subscribers
 
 #### Defined in
 
-[audio.ts:214](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L214)
+[audio.ts:214](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L214)
 
 ***
 
@@ -387,7 +387,7 @@ Reset the clock back to zero beats and stop all subscribers
 
 #### Defined in
 
-[audio.ts:164](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L164)
+[audio.ts:164](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L164)
 
 ***
 
@@ -405,7 +405,7 @@ Reset the clock back to zero beats and stop all subscribers
 
 #### Defined in
 
-[audio.ts:240](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L240)
+[audio.ts:240](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L240)
 
 ***
 
@@ -419,4 +419,4 @@ Reset the clock back to zero beats and stop all subscribers
 
 #### Defined in
 
-[audio.ts:111](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/audio.ts#L111)
+[audio.ts:111](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/audio.ts#L111)

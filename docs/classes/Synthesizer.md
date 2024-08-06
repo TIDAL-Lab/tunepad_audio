@@ -20,7 +20,7 @@ Create a new synthesizer
 
 • **patch?**: [`SynthPatchRef`](../type-aliases/SynthPatchRef.md)
 
-optional name of the patch to load (e.g. "grand_piano")
+optional patch to load (e.g. "simple-sine")
 
 #### Returns
 
@@ -28,7 +28,7 @@ optional name of the patch to load (e.g. "grand_piano")
 
 #### Defined in
 
-[synth.ts:109](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L109)
+[synth.ts:122](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L122)
 
 ## Properties
 
@@ -40,7 +40,19 @@ shortcut parameters that can be adjusted by user
 
 #### Defined in
 
-[synth.ts:98](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L98)
+[synth.ts:109](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L109)
+
+***
+
+### patch
+
+> **patch**: [`SynthPatch`](../interfaces/SynthPatch.md) = `SimpleSinePatch`
+
+the patch is a chain of samples and audio nodes that produce notes
+
+#### Defined in
+
+[synth.ts:97](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L97)
 
 ***
 
@@ -52,7 +64,7 @@ allow a maximum of 24 simultaneous notes
 
 #### Defined in
 
-[synth.ts:75](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L75)
+[synth.ts:86](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L86)
 
 ## Accessors
 
@@ -68,7 +80,7 @@ Set attack value for the current synth patch in seconds (>= 0)
 
 #### Defined in
 
-[synth.ts:505](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L505)
+[synth.ts:535](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L535)
 
 ***
 
@@ -90,7 +102,7 @@ tempo (beats per minute)
 
 #### Defined in
 
-[synth.ts:78](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L78)
+[synth.ts:89](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L89)
 
 ***
 
@@ -106,7 +118,7 @@ Set decay value for the current synth patch in seconds (>= 0)
 
 #### Defined in
 
-[synth.ts:515](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L515)
+[synth.ts:545](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L545)
 
 ***
 
@@ -122,7 +134,7 @@ Is the synth currently playing a sound?
 
 #### Defined in
 
-[synth.ts:117](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L117)
+[synth.ts:130](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L130)
 
 ***
 
@@ -138,7 +150,7 @@ Set release value for the current synth patch in seconds (>= 0)
 
 #### Defined in
 
-[synth.ts:535](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L535)
+[synth.ts:565](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L565)
 
 ***
 
@@ -154,7 +166,7 @@ Set sustain value for the current synth patch [0.0, 1.0]
 
 #### Defined in
 
-[synth.ts:525](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L525)
+[synth.ts:555](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L555)
 
 ***
 
@@ -170,7 +182,7 @@ name of the active patch
 
 #### Defined in
 
-[synth.ts:89](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L89)
+[synth.ts:100](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L100)
 
 ***
 
@@ -186,7 +198,7 @@ Set the output volume of the current patch in decibels [-50.0, 5.0]dB
 
 #### Defined in
 
-[synth.ts:545](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L545)
+[synth.ts:575](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L575)
 
 ## Methods
 
@@ -194,7 +206,7 @@ Set the output volume of the current patch in decibels [-50.0, 5.0]dB
 
 > **cancelAllMidiNotes**(`port`): `void`
 
-Send noteOff to all possible midi note values
+Send NOTE_OFF to all possible midi note values
 
 #### Parameters
 
@@ -206,7 +218,7 @@ Send noteOff to all possible midi note values
 
 #### Defined in
 
-[synth.ts:358](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L358)
+[synth.ts:397](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L397)
 
 ***
 
@@ -214,16 +226,7 @@ Send noteOff to all possible midi note values
 
 > **cancelAllNotes**(): `void`
 
-scheduleSound(note: Note, soundURL: string, dest: AudioNode, start: number, delta: number = 0): SynthChain | null {
-    const now = dest.context.currentTime;
-    const duration = note.duration * (60 / this.bpm);
-    start = (start + delta) * (60 / this.bpm);
-
-    const generator = SynthChain.sound(dest.context!, soundURL);
-    const release = generator.scheduleNote(note, start, duration, dest);
-    this.sound_gens.push(generator);
-    return generator;
-}
+cancel all scheduled notes
 
 #### Returns
 
@@ -231,7 +234,7 @@ scheduleSound(note: Note, soundURL: string, dest: AudioNode, start: number, delt
 
 #### Defined in
 
-[synth.ts:232](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L232)
+[synth.ts:254](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L254)
 
 ***
 
@@ -262,7 +265,7 @@ true iff the patch and all resources were successfully loaded.
 
 #### Defined in
 
-[synth.ts:391](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L391)
+[synth.ts:430](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L430)
 
 ***
 
@@ -283,7 +286,29 @@ This only applies to currently scheduled or playing notes.
 
 #### Defined in
 
-[synth.ts:373](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L373)
+[synth.ts:412](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L412)
+
+***
+
+### playMidiNote()
+
+> **playMidiNote**(`note`, `port`): `void`
+
+Send a single NOTE_ON event to a MIDI output port
+
+#### Parameters
+
+• **note**: `number` \| [`Note`](Note.md)
+
+• **port**: `MIDIOutput`
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[synth.ts:370](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L370)
 
 ***
 
@@ -309,7 +334,7 @@ Optional audio destination node. If not provided, will play to AudioContext.dest
 
 #### Defined in
 
-[synth.ts:134](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L134)
+[synth.ts:147](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L147)
 
 ***
 
@@ -325,7 +350,29 @@ Immediately release all notes that are currently being played by `playNote`
 
 #### Defined in
 
-[synth.ts:164](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L164)
+[synth.ts:177](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L177)
+
+***
+
+### releaseMidiNote()
+
+> **releaseMidiNote**(`note`, `port`): `void`
+
+Send a single NOTE_OFF event to a MIDI output port
+
+#### Parameters
+
+• **note**: `number` \| [`Note`](Note.md)
+
+• **port**: `MIDIOutput`
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[synth.ts:379](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L379)
 
 ***
 
@@ -345,7 +392,7 @@ Release (stop playing) a note started with `playNote`
 
 #### Defined in
 
-[synth.ts:152](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L152)
+[synth.ts:165](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L165)
 
 ***
 
@@ -378,23 +425,33 @@ adjust output velocity of all notes (number >= 0.0)
 
 #### Defined in
 
-[synth.ts:325](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L325)
+[synth.ts:346](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L346)
 
 ***
 
 ### scheduleNote()
 
-> **scheduleNote**(`note`, `dest`, `start`, `delta`): `undefined` \| [`SynthChain`](SynthChain.md)
+> **scheduleNote**(`note`, `start`, `delta`, `dest`?): `undefined` \| [`SynthChain`](SynthChain.md)
+
+Schedule a note to be played in the future.
 
 #### Parameters
 
-• **note**: [`Note`](Note.md)
+• **note**: `number` \| [`Note`](Note.md)
 
-• **dest**: `AudioNode`
+note to be scheduled.
 
 • **start**: `number`
 
+when to play the note in beats (using synth's tempo setting)
+
 • **delta**: `number` = `0`
+
+time before the start of the next measure (in beats). if negative, it means to skip the beginning of a loop
+
+• **dest?**: `AudioNode`
+
+optional audio destination. By default it plays to AudioContext.destination
 
 #### Returns
 
@@ -402,7 +459,7 @@ adjust output velocity of all notes (number >= 0.0)
 
 #### Defined in
 
-[synth.ts:204](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L204)
+[synth.ts:218](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L218)
 
 ***
 
@@ -424,7 +481,7 @@ adjust output velocity of all notes (number >= 0.0)
 
 #### Defined in
 
-[synth.ts:249](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L249)
+[synth.ts:271](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L271)
 
 ***
 
@@ -446,7 +503,7 @@ Sets the MIDI output "program" or instrument voice
 
 #### Defined in
 
-[synth.ts:349](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L349)
+[synth.ts:388](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L388)
 
 ***
 
@@ -468,4 +525,4 @@ Update parameter value for all playing and scheduled notes
 
 #### Defined in
 
-[synth.ts:482](https://github.com/TIDAL-Lab/tunepad_audio/blob/1e1bd16c9c764bdf488b791f76cac7abae0e3b33/src/synth.ts#L482)
+[synth.ts:512](https://github.com/TIDAL-Lab/tunepad_audio/blob/9451562ae9f07b7b952ae7340ca3f4d9b8cd1a4e/src/synth.ts#L512)
