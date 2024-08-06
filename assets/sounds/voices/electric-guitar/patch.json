@@ -1,12 +1,12 @@
 {
     "patch_id": 107,
-    "name": "Clean Electric Guitar",
+    "name": "Stratocaster Guitar",
     "instrument": "guitar",
     "format": "tunepad-patch",
     "version": "2.0",
-    "description": "Clean Electric Guitar",
+    "description": "Stratocaster Guitar",
     "source": "www.pianobook.co.uk RJS Guitar",
-    "credit": "Audio source: www.pianobook.co.uk",
+    "credit": "Audio source: www.pianobook.co.uk/packs/rjs-guitar",
     "nodes": [
         {
             "A": 0,
@@ -18,7 +18,7 @@
             "cy": 33.0000007152557,
             "d shape": 2,
             "id": 0,
-            "level": 8.0,
+            "level": 2.0,
             "r shape": 2,
             "type": "out"
         },

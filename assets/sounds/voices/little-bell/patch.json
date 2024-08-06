@@ -1,0 +1,167 @@
+{
+    "patch_id": 62,
+    "author": "pesto_cat",
+    "created": "2022-02-24 13:19:39.991",
+    "modified": "2022-03-08 22:14:29.117",
+    "description": "a bell maybe?",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "id": 62,
+    "instrument": "piano",
+    "name": "FM Little Bell",
+    "nodes": [
+        {
+            "A": 0.0113636363636364,
+            "D": 1,
+            "R": 0,
+            "S": 0,
+            "a shape": 4,
+            "cx": 179.471996307373,
+            "cy": 23.5735022491879,
+            "d shape": 0.579545454545455,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 5.12699794769287,
+            "cy": -11.3169996738434,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 4250,
+            "id": 2,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -97.3729963302612,
+            "cy": -12.3169996738434,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 3,
+            "level": -5,
+            "multiplier": 5.011,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -98.8729877471924,
+            "cy": 62.4569911956787,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 4,
+            "level": -5,
+            "multiplier": 11,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 12.6270093917847,
+            "cy": 63.4569911956787,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 3700,
+            "id": 5,
+            "level": -8.38616944170171,
+            "multiplier": 2,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "A": 0.0125000000000001,
+            "D": 1.00113636363637,
+            "R": 0,
+            "S": 0,
+            "a shape": 4,
+            "cx": -42.3729877471924,
+            "cy": 62.9569911956787,
+            "d shape": 2,
+            "id": 6,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "A": 0.00568181818181818,
+            "D": 0.705681818181818,
+            "R": 0.3,
+            "S": 0.227272727272727,
+            "a shape": 4,
+            "cx": 102.97900390625,
+            "cy": 23.7390022873878,
+            "d shape": 2,
+            "id": 7,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 7,
+            "id": 6,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 2,
+            "id": 9,
+            "level": -0.324232081911283,
+            "source": 3,
+            "type": "frequency"
+        },
+        {
+            "dest": 6,
+            "id": 12,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 15,
+            "level": -1.55290102389073,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 18,
+            "level": 0,
+            "source": 6,
+            "type": "frequency"
+        },
+        {
+            "dest": 0,
+            "id": 21,
+            "level": 0,
+            "source": 7,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 13310,
+        "width": 13310,
+        "x": -224.2735,
+        "y": -66.55
+    }
+}

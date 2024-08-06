@@ -1,0 +1,80 @@
+{
+    "patch_id": 210,
+    "author": "pesto_cat",
+    "created": "2022-02-28 20:33:18.016",
+    "modified": "2022-03-08 16:19:08.187",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "name": "Space Chime",
+    "nodes": [
+        {
+            "A": 0.00909090909090908,
+            "D": 0.95227272727273,
+            "R": 0.172727272727272,
+            "S": 0,
+            "a shape": 6.02840909090909,
+            "cx": 62.4999961853027,
+            "cy": 30.0000004768372,
+            "d shape": 0.210227272727272,
+            "id": 0,
+            "level": 4.05558227803441,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -88.5,
+            "cy": -15.0000009536743,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 2,
+            "level": 0.225422204946755,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "glass"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -89.5,
+            "cy": 66.5,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 3,
+            "level": -4.11223744201211,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "buzz 1"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 2,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 5,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+    }
+}
