@@ -161,22 +161,24 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 206     Drums.7 drums Whistles
 2       Guitar.0 guitar Acoustic Guitar
 107     Guitar.1 guitar Electric Guitar
-170     Synth.Arps.3 piano Ice Synth
+* Flat Synth (patch 10)     Synth.Leads.08 piano Flat Synth
+* Ice Synth (patch 170)     Synth.Arps.3 piano Ice Synth
+* Soft Synth (patch 223)    Synth.Leads.00 piano Soft Synth
+* Buzz Buzz (patch 252)     Synth.Leads.05 piano Buzz Buzz
+* Dreamy Pad (patch 53)     Synth.Pads.1 piano Dreamy Pad
+* FM Little Bell (patch 62) Synth.Arps.0 piano FM Little Bell
+210 Synth.Arps.2 piano Space Chime
+    
 
 
 126 Keyboard.1 piano Big Piano
 7 Keyboard.4 piano Musicbox
-62 Synth.Arps.0 piano FM Little Bell
-210 Synth.Arps.2 piano Space Chime
-223 Synth.Leads.00 piano Soft Synth
+
 213 Synth.Leads.02 piano Soaring Saw
-252 Synth.Leads.05 piano Buzz Buzz
 254 Synth.Leads.07 piano Searing Lead
-10 Synth.Leads.08 piano Flat Synth
 278 Synth.Leads.09 piano Bright Lead
 280 Synth.Leads.10 piano Simple Saw
 103 Synth.Pads.0 piano Africa Brass
-53 Synth.Pads.1 piano Dreamy Pad
 75 Synth.Pads.2 piano Dramatic Pad
 82 Synth.Pads.3 piano Sentimental Organ
 85 Synth.Pads.4 piano Synth Orchestra
