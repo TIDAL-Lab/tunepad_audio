@@ -1,0 +1,61 @@
+{
+    "patch_id": 224,
+    "name": "Plucked Bass",
+    "instrument": "bass",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "Musicman Stingray Bass",
+    "source": "https://www.pianobook.co.uk/packs/low-fat-bass-clean-free-edition/",
+    "author": "https://www.pianobook.co.uk/profile/laszlosomogyimusic/",
+    "credit": "Audio source: www.pianobook.co.uk/packs/low-fat-bass-clean-free-edition",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 1.0,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 1.0,
+            "r shape": 0.25,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "plucked-bass",
+            "samples": [
+                { "sample": "28noteE1", "step": 28 },
+                { "sample": "29noteF1", "step": 29 },
+                { "sample": "31noteG1", "step": 31 },
+                { "sample": "33noteA1", "step": 33 },
+                { "sample": "35noteB1", "step": 35 },
+                { "sample": "36noteC2", "step": 36 },
+                { "sample": "38noteD2", "step": 38 },
+                { "sample": "40noteE2", "step": 40 },
+                { "sample": "41noteF2", "step": 41 },
+                { "sample": "43noteG2", "step": 43 },
+                { "sample": "45noteA2", "step": 45 },
+                { "sample": "47noteB2", "step": 47 },
+                { "sample": "48noteC3", "step": 48 },
+                { "sample": "50noteD3", "step": 50 },
+                { "sample": "52noteE3", "step": 52 },
+                { "sample": "53noteF3", "step": 53 },
+                { "sample": "55noteG3", "step": 55 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}
