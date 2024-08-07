@@ -1,0 +1,239 @@
+{
+    "patch_id": 100,
+    "author": "pesto_cat",
+    "name": "Like That Bass",
+    "description": "Doja Cat Like That",
+    "instrument": "bass",
+    "created": "2022-03-01 20:03:38.882",
+    "modified": "2022-03-11 14:24:50.886",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "nodes": [
+        {
+            "A": 0.0147727272727273,
+            "D": 0.1,
+            "R": 0.0363636363636364,
+            "S": 1,
+            "a shape": 4,
+            "cx": 271.97428894043,
+            "cy": 62.5256423950195,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -256.371741771698,
+            "cy": 57.9615135192871,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 2,
+            "level": -4.99999999999999,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "Q": 1.98873636363636,
+            "Q-mod": 10,
+            "cx": -103.307647228241,
+            "cy": 59.1538314819336,
+            "filter type": "lowpass",
+            "frequency": 1880.90923040199,
+            "frequency-mod": 610,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 3,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "A": 0,
+            "D": 0.103409090909091,
+            "R": 0.0340909090909091,
+            "S": 1,
+            "a shape": 4,
+            "cx": -27.9102363586426,
+            "cy": 59.4230918884277,
+            "d shape": 2,
+            "id": 4,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "A": 0.18,
+            "D": 0.1,
+            "R": 0.3,
+            "S": 1,
+            "a shape": 0.47727272727273,
+            "cx": -220.205017089844,
+            "cy": 124.717903137207,
+            "d shape": 2,
+            "id": 5,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "cx": -291.333236694336,
+            "cy": 124.717887878418,
+            "id": 6,
+            "signal": -3.02,
+            "type": "const"
+        },
+        {
+            "A": 0.995454545454546,
+            "D": 0.103409090909091,
+            "R": 0.03,
+            "S": 1,
+            "a shape": 1,
+            "cx": 48.7179565429688,
+            "cy": 94.5127868652344,
+            "d shape": 1,
+            "id": 7,
+            "level": 0,
+            "r shape": 1,
+            "type": "adsr"
+        },
+        {
+            "cx": 193.897365570068,
+            "cy": 62.3589611053467,
+            "gain-mod": 0.5,
+            "id": 8,
+            "level": 0,
+            "type": "gain"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -251.384506225586,
+            "cy": -9.74358152627929,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 9,
+            "level": -11.5221292188763,
+            "multiplier": 1.5,
+            "relative": true,
+            "type": "osc",
+            "waveform": "square"
+        },
+        {
+            "cx": 125.692283630371,
+            "cy": 93.5384330749512,
+            "delay": 0.1,
+            "delay-mod": 0.0004,
+            "id": 10,
+            "level": -1.85644071645961,
+            "type": "delay"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 50.6666641235352,
+            "cy": 151.999956130981,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 0.5,
+            "frequency-mod": 30,
+            "id": 12,
+            "level": -10.0570018714007,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "triangle"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 3,
+            "id": 10,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 13,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 8,
+            "id": 16,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 19,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 3,
+            "id": 22,
+            "level": 0,
+            "source": 5,
+            "type": "frequency"
+        },
+        {
+            "dest": 5,
+            "id": 25,
+            "level": 0,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 10,
+            "id": 28,
+            "level": -2.88395904436864,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 31,
+            "level": 4.43686006825944,
+            "source": 8,
+            "type": "audio"
+        },
+        {
+            "dest": 3,
+            "id": 34,
+            "level": 0,
+            "source": 9,
+            "type": "audio"
+        },
+        {
+            "dest": 8,
+            "id": 37,
+            "level": -0.665529010238828,
+            "source": 10,
+            "type": "audio"
+        },
+        {
+            "dest": 10,
+            "id": 40,
+            "level": -35.4948805460751,
+            "source": 12,
+            "type": "delay"
+        }
+    ],
+    "view": {
+        "height": 19487.171,
+        "width": 19487.171,
+        "x": -328.35883135,
+        "y": -97.435855
+    }
+}

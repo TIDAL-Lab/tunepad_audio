@@ -1,0 +1,146 @@
+{
+    "patch_id": 79,
+    "author": "pesto_cat",
+    "name": "I Feel Love Bass",
+    "description": "Bass from Donna Summers' I Feel Love",
+    "instrument": "bass",
+    "created": "2022-02-25 13:13:59.741",
+    "modified": "2022-03-08 11:28:07.250",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.297727272727273,
+            "S": 1,
+            "a shape": 4,
+            "cx": 218.006244659424,
+            "cy": 36.3756453461117,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -103,
+            "cy": 6.49999952316284,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 2,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -99.5,
+            "cy": 70,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 3,
+            "level": -5,
+            "multiplier": 1,
+            "pulse width": 0,
+            "pulse width-mod": 0.25,
+            "relative": true,
+            "type": "pwm"
+        },
+        {
+            "A": 0.0113636363636364,
+            "D": 0.120454545454546,
+            "R": 0.203409090909091,
+            "S": 0.197727272727272,
+            "a shape": 4,
+            "cx": -10.000002861023,
+            "cy": 36.5,
+            "d shape": 0.494318181818184,
+            "id": 4,
+            "level": 0,
+            "r shape": 0.38068181818182,
+            "type": "adsr"
+        },
+        {
+            "Q": 0.852372727272727,
+            "Q-mod": 10,
+            "cx": 73.2049989700317,
+            "cy": 36.6025047302246,
+            "filter type": "lowpass",
+            "frequency": 2739.99999999998,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 6,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -191.797103881836,
+            "cy": 71.0088424682617,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 0.509943420663245,
+            "frequency-mod": 30,
+            "id": 7,
+            "level": 0,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 4,
+            "id": 5,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 8,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 11,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 14,
+            "level": 4.21501706484644,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 3,
+            "id": 17,
+            "level": 0,
+            "source": 7,
+            "type": "pulse width"
+        }
+    ],
+    "view": {
+        "height": 14641,
+        "width": 14641,
+        "x": -246.70085,
+        "y": -73.205
+    }
+}

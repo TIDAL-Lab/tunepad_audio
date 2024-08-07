@@ -1,0 +1,172 @@
+{
+    "patch_id": 275,
+    "author": "pesto_cat",
+    "created": "2022-03-01 16:37:48.199",
+    "modified": "2022-03-08 16:40:49.367",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "name": "PWM Synth Bass",
+    "nodes": [
+        {
+            "A": 0.0113636363636364,
+            "D": 0.1,
+            "R": 0.0454545454545455,
+            "S": 1,
+            "a shape": 7,
+            "cx": 155.5,
+            "cy": 40,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -19.5,
+            "cy": 4.5,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 2,
+            "level": -5,
+            "multiplier": 1,
+            "pulse width": -0.33,
+            "pulse width-mod": 0.71,
+            "relative": true,
+            "type": "pwm"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -20.5,
+            "cy": 79,
+            "detune": 18.3,
+            "detune-mod": 20,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 3,
+            "level": -5,
+            "multiplier": 1,
+            "pulse width": -0.34,
+            "pulse width-mod": 0.6,
+            "relative": true,
+            "type": "pwm"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -108,
+            "cy": 4.5,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 0.299652774353652,
+            "frequency-mod": 30,
+            "id": 4,
+            "level": -9.78252935363597,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -109.5,
+            "cy": 79,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 0.242246118475313,
+            "frequency-mod": 30,
+            "id": 5,
+            "level": -10.0570018714007,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        },
+        {
+            "cx": 49.5,
+            "cy": 40,
+            "gain-mod": 0.5,
+            "id": 6,
+            "level": 0.221843003412893,
+            "type": "gain"
+        },
+        {
+            "Q": 0.0001,
+            "Q-mod": 10,
+            "cx": 98.5,
+            "cy": 40,
+            "filter type": "lowpass",
+            "frequency": 2000,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 7,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        }
+    ],
+    "parameters": [
+        {
+            "label": "FILTER",
+            "max": 7000,
+            "min": 32,
+            "name": "frequency",
+            "node": 7,
+            "slot": 1,
+            "value": 1077.2
+        }
+    ],
+    "routing": [
+        {
+            "dest": 6,
+            "id": 6,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 9,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 2,
+            "id": 12,
+            "level": 0,
+            "source": 4,
+            "type": "pulse width"
+        },
+        {
+            "dest": 3,
+            "id": 15,
+            "level": 0,
+            "source": 5,
+            "type": "pulse width"
+        },
+        {
+            "dest": 7,
+            "id": 18,
+            "level": -7.32081911262802,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 21,
+            "level": 0.78498293515355,
+            "source": 7,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+    }
+}

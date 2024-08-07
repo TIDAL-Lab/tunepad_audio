@@ -1,0 +1,183 @@
+{
+    "patch_id": 213,
+    "author": "pesto_cat",
+    "voice": "Soaring Saw",
+    "created": "2022-02-28 20:33:18.016",
+    "modified": "2022-03-11 14:22:29.451",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "instrument": "piano",
+    "name": "Soaring Saw",
+    "nodes": [
+        {
+            "A": 0.1,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 0.8,
+            "a shape": 4,
+            "cx": 176.293640136719,
+            "cy": 45.0942792892456,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -205.48299407959,
+            "cy": -20.5,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 2,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -205.509269714355,
+            "cy": 45.6367835998535,
+            "detune": 4,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 3,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -202.48299407959,
+            "cy": 109.5,
+            "detune": 2,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 4,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "A": 0.00568181818181818,
+            "D": 0.0977272727272728,
+            "R": 0.3,
+            "S": 0.55,
+            "a shape": 4,
+            "cx": -71.6677169799805,
+            "cy": 44.2890205383301,
+            "d shape": 2,
+            "id": 5,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "cx": 31.4049263000488,
+            "cy": 45.0942802429199,
+            "gain-mod": 0.5,
+            "id": 6,
+            "level": 0,
+            "type": "gain"
+        },
+        {
+            "cx": 30.6801986694336,
+            "cy": 135.363357543945,
+            "delay": 0.36,
+            "delay-mod": 0.0006,
+            "id": 7,
+            "level": -7.66038892622076,
+            "type": "delay"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -72.4729690551758,
+            "cy": 135.282836914063,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 1,
+            "frequency-mod": 30,
+            "id": 8,
+            "level": -20.5434222786494,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 5,
+            "id": 7,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 10,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 13,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 16,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 19,
+            "level": 0,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 22,
+            "level": 3.00341296928326,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 25,
+            "level": 0,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 28,
+            "level": -29.283276450512,
+            "source": 8,
+            "type": "delay"
+        }
+    ],
+    "view": {
+        "height": 17715.61,
+        "width": 17715.61,
+        "x": -298.5080285,
+        "y": -88.57805
+    }
+}
