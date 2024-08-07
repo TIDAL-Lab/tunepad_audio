@@ -19,10 +19,12 @@ import {
     SynthCompressorNode,
     SynthSampleNode, 
     SynthOscNode,
+    SynthPWMNode,
     SynthInverterNode,
     EffectCurve,
     SynthConstNode,
     SynthDelayNode,
+    SynthDistortionNode,
     SynthPannerNode,
     SynthStereoNode,
     SynthConnector } from './nodes';
@@ -185,7 +187,7 @@ export class SynthChain {
 
             case 'const': return new SynthConstNode(context, config);
 
-            //case 'distortion': return SynthDistortionNode(context, config);
+            case 'distortion': return new SynthDistortionNode(context, config);
 
             case 'gain': return new SynthNode(context, config);
 
@@ -206,7 +208,7 @@ export class SynthChain {
 
             case 'panner': return new SynthPannerNode(context, config);
 
-            //case 'pwm': return SynthPWMNode(context, config);
+            case 'pwm': return new SynthPWMNode(context, config);
 
             case 'delay': return new SynthDelayNode(context, config);
 
