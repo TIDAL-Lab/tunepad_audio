@@ -1,4 +1,5 @@
 export declare const SimpleSawPatch: {
+    patch_id: number;
     nodes: ({
         type: string;
         A: number;
