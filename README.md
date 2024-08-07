@@ -107,77 +107,87 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 ## BASS
 * Electric Bass (patch 1)
 * Blues Bass (patch 305)
+* Plucked Bass (patch 224)
+* Synth Pop Bass (patch 84)
+* PWM Synth Bass (275)
+* Billie Bass (patch 308)
 * Jazz Upright (patch 209)
 * Jupiter Bass (patch 301)
 * Mars Bass (patch 303)
 * Saturn Bass (patch 302)
-* Pop Fizz Bass (patch 249)
+* Pop Fizz Bass (patch 3)
 * Triangle Bass (patch 97)
+* I Feel Love Bass (patch 79)
+* Like That Bass (100)
+* Clean Cosine (282)
 * 303 Bass (patch 65)
 * 808 Bass (patch 367)
 
-244 Synth.Bass.1 piano Synth Pop Bass
-245 Synth.Bass.2 piano House Organ Bass
-248 Synth.Bass.4 piano I Feel Love Bass
-250 Synth.Bass.6 piano Like That Bass
-282 Synth.Bass.8 piano Clean Cosine
-224 Bass.1 bass Plucked Bass
-275 Bass.11 piano PWM Synth Bass
-84 Bass.2 bass Synth Pop Bass
-76 Bass.3 bass House Organ Bass
-100 Bass.4 bass Like That Bass
-3 Bass.7 bass Pop Bass
-79 Bass.8 bass I Feel Love Bass
 
+## ORGAN
+* Hammond Organ (patch 80)
+* Rock Organ (patch 81)
+* Pipe Organ (patch 304)
+* Crystal Organ (patch 78)
+* House Organ Bass (patch 76)
 
-
-8       Keyboard.8 piano Rhodes Piano
-9       Keyboard.0 piano Piano
-5       Keyboard.3 piano Marimba
-63      Synth.Arps.1 piano FM Vibraphone
-300     Glockenspiel
+## PIANO
+* 8       Keyboard.8 piano Rhodes Piano
+* 9       Keyboard.0 piano Piano
 89      Keyboard.2 piano Sparkly E. Piano
-222     Synth.Samples.2 piano Strings
-304     Pipe Organ
-78      Keyboard.5 piano Crystal Organ
-255     Synth.Arps.4 piano Squiggly Pluck
-283     Synth.Arps.5 piano Wah Wah
-251     Synth.Leads.03 piano Wacky Lead
-211     Synth.Leads.01 piano Wobbly Square
-253     Synth.Leads.06 piano Ocarina
 306     Harpsichord
-80      Keyboard.6 piano Hammond Organ
-81      Keyboard.7 piano Rock Organ
 307     Electric Piano
-4       Synth.Leads.04 piano Party Synth
-11      Drums.0 drums 808 Drums
-466     Drums.1 drums 909 Drumkit
-12      Drums.2 drumkit Rock Drumkit
-227     Drums.3 drums Headlines Drums
-228     LinnDrums
-13      Drums.4 drums Percussion Sounds
-204     Drums.5 drums Applause
-205     Drums.6 drums Sirens and Horns
-206     Drums.7 drums Whistles
-2       Guitar.0 guitar Acoustic Guitar
-107     Guitar.1 guitar Electric Guitar
+
+## MALLET
+* 5       Keyboard.3 piano Marimba
+* 63      Synth.Arps.1 piano FM Vibraphone
+* 300     Glockenspiel
+* Chimes (2)
+
+## SYNTH
+* Squiggly Puck (patch 255)     Synth.Arps.4
+* Wah Wah (patch 283)     Synth.Arps.5
+* Wacky Lead (251)
+* Wobbly Square (211)
+* Ocarina (253)
+* Party Synth (4)
 * Flat Synth (patch 10)     Synth.Leads.08 piano Flat Synth
 * Ice Synth (patch 170)     Synth.Arps.3 piano Ice Synth
 * Soft Synth (patch 223)    Synth.Leads.00 piano Soft Synth
 * Buzz Buzz (patch 252)     Synth.Leads.05 piano Buzz Buzz
 * Dreamy Pad (patch 53)     Synth.Pads.1 piano Dreamy Pad
-* FM Little Bell (patch 62) Synth.Arps.0 piano FM Little Bell
-210 Synth.Arps.2 piano Space Chime
+* FM Little Bell (62)       Synth.Arps.0 piano FM Little Bell
+* Soaring Saw (213)         Synth.Leads.02 piano Soaring Saw
+* Simple Saw (280)          Synth.Leads.10 piano Simple Saw
+* Searing Lead (254)        Synth.Leads.07 piano Searing Lead
+278 Synth.Leads.09 piano Bright Lead
+
+--> FIXME needs patch id and replace old FM patch 210 Synth.Arps.2 piano Space Chime
+
+
+## DRUMS
+* 808 Drums (11)
+* 909 Drums (466)
+* Rock Drumkit (12)
+* Headlines Drums (227)
+* LinnDrums (228)
+* Percussion Sounds (13)
+* Applause (204)
+* Sirens and Horns (205)
+* Whistles (206)
+
+## GUITAR
+* Acoustic Guitar (2)
+* Electric Guitar (107)
+* Ukulele (309)
+
+222     Synth.Samples.2 piano Strings
     
 
 
 126 Keyboard.1 piano Big Piano
 7 Keyboard.4 piano Musicbox
 
-213 Synth.Leads.02 piano Soaring Saw
-254 Synth.Leads.07 piano Searing Lead
-278 Synth.Leads.09 piano Bright Lead
-280 Synth.Leads.10 piano Simple Saw
 103 Synth.Pads.0 piano Africa Brass
 75 Synth.Pads.2 piano Dramatic Pad
 82 Synth.Pads.3 piano Sentimental Organ
