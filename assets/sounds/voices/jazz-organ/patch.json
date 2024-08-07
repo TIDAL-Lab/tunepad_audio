@@ -6,6 +6,7 @@
     "version": "2.0",
     "description": "Jazz organ samples from a Yamaha P-105",
     "source": "Yamaha P-105",
+    "credit": "Audio source: Sampled from a Yamaha P-105",
     "nodes": [
         {
             "A": 0,
