@@ -1,0 +1,65 @@
+{
+    "patch_id": 310,
+    "name": "Trumpet",
+    "instrument": "piano",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "Epic Brass Trumpet",
+    "source": "https://www.pianobook.co.uk/packs/epic-brass-trumpet/",
+    "author": "https://www.pianobook.co.uk/profile/dmohn28/",
+    "credit": "Audio source: www.pianobook.co.uk/packs/epic-brass-trumpet",
+    "nodes": [
+        {
+            "A": 0.0,
+            "D": 0.1,
+            "R": 0.2,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 0.0,
+            "r shape": 0.25,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "trumpet",
+            "samples": [
+                { "sample": "52noteE3", "step": 52 },
+                { "sample": "53noteF3", "step": 53 },
+                { "sample": "55noteG3", "step": 55 },
+                { "sample": "57noteA3", "step": 57 },
+                { "sample": "59noteB3", "step": 59 },
+                { "sample": "60noteC4", "step": 60 },
+                { "sample": "62noteD4", "step": 62 },
+                { "sample": "64noteE4", "step": 64 },
+                { "sample": "65noteF4", "step": 65 },
+                { "sample": "67noteG4", "step": 67 },
+                { "sample": "69noteA4", "step": 69 },
+                { "sample": "71noteB4", "step": 71 },
+                { "sample": "72noteC5", "step": 72 },
+                { "sample": "74noteD5", "step": 74 },
+                { "sample": "76noteE5", "step": 76 },
+                { "sample": "77noteF5", "step": 77 },
+                { "sample": "79noteG5", "step": 79 },
+                { "sample": "81noteA5", "step": 81 },
+                { "sample": "83noteB5", "step": 83 },
+                { "sample": "84noteC6", "step": 84 },
+                { "sample": "86noteD6", "step": 86 }
+            ],
+            "type": "sample"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 5,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}
