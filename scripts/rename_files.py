@@ -30,7 +30,7 @@ midi = 12
 for octave in octaves:
     for note in notesS:
         if midi <= 108:
-            src = f'1SBU_{note}{octave}.wav'
+            src = f'FSS6_Royers_L2_{note}{octave}_RR2.wav'
             dst = f'{midi}note{note_map[note]}{octave}.wav'
             print(f'mv {src} {dst}')
         midi += 1

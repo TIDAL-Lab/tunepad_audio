@@ -21,8 +21,10 @@ for octave in octaves:
             infile = path + ".wav"
             wavfile = path + "-trim.wav"
             oggfile = path + ".ogg"
+            #cmd = f'{exe} {verb} {trim} -i {infile} -filter:a "{silence}" '
             #cmd = f'{exe} {verb} {trim} -i {infile} -filter:a "{silence},{fade}" '
-            cmd = f'{exe} {verb} {trim} -i {infile} -filter:a "{fade}" '
+            #cmd = f'{exe} {verb} {trim} -i {infile} -filter:a "{fade}" '
+            cmd = f'{exe} {verb} {trim} -i {infile} '
 
             print(f'if [ -e {infile} ]')
             print('then')
