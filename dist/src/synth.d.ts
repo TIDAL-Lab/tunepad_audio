@@ -15,14 +15,10 @@ export interface SynthPatch {
     credit?: string;
 }
 /**
- * List of built-in patch names
- */
-export type BuiltinPatchName = ("simple-sine" | "simple-saw" | "simple-square" | "simple-tri" | "filtered-saw" | "wobbly-square");
-/**
  * Patches can be specified as a built-in name (string), a patch object,
  * or a URL referring to a `patch.json` object.
  */
-export type SynthPatchRef = BuiltinPatchName | SynthPatch | URL;
+export type SynthPatchRef = string | SynthPatch | URL;
 /**
  * Polyphonic audio synthesizer.
  */
@@ -133,13 +129,6 @@ export declare class Synthesizer {
     /**
      * Load a patch by name (for built-in patches), by URL, or by using a custom patch object.
      * * Create custom patches at https://tunepad.com/patchworks and use File -> Export.
-     * * Builtin patches include
-     *   * "simple-sine"
-     *   * "simple-saw"
-     *   * "simple-square"
-     *   * "simple-tri"
-     *   * "filtered-saw"
-     *   * "wobbly-square"
      * * URLs must resolve to a valid patch JSON object. Any links to audio samples should be relative to the URL path.
      * @returns true iff the patch and all resources were successfully loaded.
      */
