@@ -1,0 +1,167 @@
+{
+    "description": "Soft String Poly",
+    "generators": 32,
+    "instrument": "piano",
+    "created": "2022-03-01 12:42:21.233",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "modified": "2022-03-01 15:55:49.975",
+    "name": "Synth Orchestra",
+    "patch_id": 85,
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0.75909090909091,
+            "D": 0.1,
+            "R": 0.4,
+            "S": 1,
+            "a shape": 1.04545454545455,
+            "cx": 109.5,
+            "cy": 58,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 0.97727272727273,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -159.189956665039,
+            "cy": -18.18763256073,
+            "detune": 0,
+            "detune-mod": 3.1,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 2,
+            "level": -2.1111202563302,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "Q": 0.0001,
+            "Q-mod": 10,
+            "cx": 12,
+            "cy": 58,
+            "filter type": "lowpass",
+            "frequency": 1913,
+            "frequency-mod": 380,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 3,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "cx": -154.631683349609,
+            "cy": 140.444046020508,
+            "id": 4,
+            "signal": -1.01,
+            "type": "const"
+        },
+        {
+            "A": 0.21,
+            "D": 0.0977272727272728,
+            "R": 0.3,
+            "S": 1,
+            "a shape": 1.01704545454546,
+            "cx": -84.0454406738281,
+            "cy": 140.045433044434,
+            "d shape": 2,
+            "id": 5,
+            "level": 0,
+            "r shape": 1.00568181818182,
+            "type": "adsr"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -159.103713989258,
+            "cy": 57.7132949829102,
+            "detune": 0,
+            "detune-mod": 3,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 6,
+            "level": -10.7513745589948,
+            "multiplier": 1.5,
+            "relative": true,
+            "type": "osc",
+            "waveform": "square"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -262.191040039063,
+            "cy": 29.2307529449463,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 3.00055062843435,
+            "frequency-mod": 30,
+            "id": 7,
+            "level": 0,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 3,
+            "id": 6,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 9,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 12,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 3,
+            "id": 15,
+            "level": -7.54266211604097,
+            "source": 5,
+            "type": "frequency"
+        },
+        {
+            "dest": 3,
+            "id": 18,
+            "level": 0,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 2,
+            "id": 21,
+            "level": 0,
+            "source": 7,
+            "type": "detune"
+        },
+        {
+            "dest": 6,
+            "id": 24,
+            "level": 0,
+            "source": 7,
+            "type": "detune"
+        }
+    ],
+    "view": {
+        "height": 17715.61,
+        "width": 17715.61,
+        "x": -402.14434289209,
+        "y": -110.722550732422
+    }
+}

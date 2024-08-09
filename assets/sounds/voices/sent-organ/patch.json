@@ -1,0 +1,239 @@
+{
+    "patch_id": 82,
+    "generators": 32,
+    "instrument": "piano",
+    "created": "2022-03-01 21:21:56.807",
+    "modified": "2022-03-08 16:50:18.572",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "name": "Sentimental Organ",
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0.295454545454546,
+            "D": 0.1,
+            "R": 0.746590909090911,
+            "S": 1,
+            "a shape": 1.15909090909092,
+            "cx": 237.493017196655,
+            "cy": 70.8624334335327,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -98.6792850494385,
+            "cy": 139.08266544342,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 2,
+            "level": -5,
+            "multiplier": 2,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -112.735712051392,
+            "cy": 8.05255126953125,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 3,
+            "level": -5,
+            "multiplier": 4,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 28.9891706817625,
+            "cy": 8.85779762268066,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 4050,
+            "id": 4,
+            "level": -10.7513745589948,
+            "multiplier": 2,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 31.4049321525572,
+            "cy": 138.503845214844,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 2300,
+            "id": 5,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sine"
+        },
+        {
+            "cx": 135.28282607727,
+            "cy": 70.862419128418,
+            "delay": 0.1,
+            "delay-mod": 0.0013,
+            "id": 6,
+            "level": -15.0493183560203,
+            "type": "delay"
+        },
+        {
+            "A": 1.00681818181818,
+            "D": 0.0977272727272728,
+            "R": 0.601136363636364,
+            "S": 1,
+            "a shape": 0.590909090909096,
+            "cx": -33.0154571533203,
+            "cy": 139.309099197388,
+            "d shape": 2,
+            "id": 8,
+            "level": 0,
+            "r shape": 1.09090909090909,
+            "type": "adsr"
+        },
+        {
+            "A": 2,
+            "D": 0.62,
+            "R": 0.7,
+            "S": 0.2,
+            "a shape": 0.91009090909091,
+            "cx": -35.4312343597412,
+            "cy": 8.8578052520752,
+            "d shape": 0.920454545454546,
+            "id": 9,
+            "level": 0,
+            "r shape": 1.00568181818182,
+            "type": "adsr"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -166.687812805176,
+            "cy": 139.309104919434,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 0.808422745285231,
+            "frequency-mod": 30,
+            "id": 10,
+            "level": -4.34123337131807,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 29.7944183349609,
+            "cy": 70.862434387207,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 1,
+            "frequency-mod": 30,
+            "id": 11,
+            "level": -17.5482636319205,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 8,
+            "id": 9,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 9,
+            "id": 12,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 15,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 18,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 21,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 24,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 27,
+            "level": -0.443686006825956,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 30,
+            "level": 0,
+            "source": 8,
+            "type": "frequency"
+        },
+        {
+            "dest": 4,
+            "id": 33,
+            "level": 0,
+            "source": 9,
+            "type": "frequency"
+        },
+        {
+            "dest": 2,
+            "id": 36,
+            "level": 0,
+            "source": 10,
+            "type": "amplitude"
+        },
+        {
+            "dest": 6,
+            "id": 39,
+            "level": -55.2389078498293,
+            "source": 11,
+            "type": "delay"
+        }
+    ],
+    "view": {
+        "height": 16105.1,
+        "width": 16105.1,
+        "x": -271.370935,
+        "y": -80.5255
+    }
+}

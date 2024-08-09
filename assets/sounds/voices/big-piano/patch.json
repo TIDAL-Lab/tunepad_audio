@@ -1,0 +1,334 @@
+{
+    "patch_id": 126,
+    "generators": 32,
+    "instrument": "piano",
+    "created": "2022-02-20 17:49:59.525",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "modified": "2022-03-08 21:54:04.494",
+    "name": "Big Piano",
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 1.50227272727273,
+            "S": 1,
+            "a shape": 4,
+            "cx": 128.969566345215,
+            "cy": 225.42063839674,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "A": 0.0125000000000001,
+            "D": 0.103409090909091,
+            "R": 0.3,
+            "S": 1,
+            "a shape": 4,
+            "cx": -177.120820045471,
+            "cy": 225.129036903381,
+            "d shape": 2,
+            "id": 2,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "cx": -62.6184682846069,
+            "cy": 177.587688446045,
+            "gain-mod": 0.5,
+            "id": 3,
+            "level": 7.105427357601e-15,
+            "type": "gain"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -369.862442016602,
+            "cy": 191.000008106232,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 4,
+            "level": -5,
+            "multiplier": 0.75,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -373.049621582031,
+            "cy": 257.34688949585,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 5,
+            "level": -5,
+            "multiplier": 0.5,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "cx": -263.892395019531,
+            "cy": 161.388278961182,
+            "detune": 0,
+            "detune-mod": 20,
+            "id": 6,
+            "playback": 1,
+            "playback-mod": 0.15,
+            "sample-pack": "piano",
+            "samples": [
+                {
+                    "sample": "21pianoA0",
+                    "step": 21
+                },
+                {
+                    "sample": "24pianoC1",
+                    "step": 24
+                },
+                {
+                    "sample": "28pianoE1",
+                    "step": 28
+                },
+                {
+                    "sample": "32pianoAb1",
+                    "step": 32
+                },
+                {
+                    "sample": "36pianoC2",
+                    "step": 36
+                },
+                {
+                    "sample": "40pianoE2",
+                    "step": 40
+                },
+                {
+                    "sample": "44pianoAb2",
+                    "step": 44
+                },
+                {
+                    "sample": "48pianoC3",
+                    "step": 48
+                },
+                {
+                    "sample": "52pianoE3",
+                    "step": 52
+                },
+                {
+                    "sample": "56pianoAb3",
+                    "step": 56
+                },
+                {
+                    "sample": "60pianoC4",
+                    "step": 60
+                },
+                {
+                    "sample": "64pianoE4",
+                    "step": 64
+                },
+                {
+                    "sample": "68pianoAb4",
+                    "step": 68
+                },
+                {
+                    "sample": "72pianoC5",
+                    "step": 72
+                },
+                {
+                    "sample": "76pianoE5",
+                    "step": 76
+                },
+                {
+                    "sample": "80pianoAb5",
+                    "step": 80
+                },
+                {
+                    "sample": "84pianoC6",
+                    "step": 84
+                },
+                {
+                    "sample": "88pianoE6",
+                    "step": 88
+                },
+                {
+                    "sample": "92pianoAb6",
+                    "step": 92
+                },
+                {
+                    "sample": "96pianoC7",
+                    "step": 96
+                },
+                {
+                    "sample": "100pianoE7",
+                    "step": 100
+                },
+                {
+                    "sample": "104pianoAb7",
+                    "step": 104
+                },
+                {
+                    "sample": "108pianoC8",
+                    "step": 108
+                }
+            ],
+            "type": "sample"
+        },
+        {
+            "A": 0.00681818181818187,
+            "D": 0.103409090909091,
+            "R": 1.25454545454545,
+            "S": 1,
+            "a shape": 4,
+            "cx": 45.2796182632446,
+            "cy": 225.204385995865,
+            "d shape": 2,
+            "id": 7,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "A": 0.069318181818182,
+            "D": 0.807954545454548,
+            "R": 0.3,
+            "S": 0.101136363636363,
+            "a shape": 4,
+            "cx": -266.815994262695,
+            "cy": 225.280429840088,
+            "d shape": 2,
+            "id": 8,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "Q": 1,
+            "Q-mod": 10,
+            "cx": -7.65192639827728,
+            "cy": 116.114389419556,
+            "filter type": "lowpass",
+            "frequency": 2734.61155854756,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 9,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "cx": -124.179962421989,
+            "cy": 116.734073638916,
+            "delay": 0.4,
+            "delay-mod": 0.005,
+            "id": 10,
+            "level": -10,
+            "type": "delay"
+        }
+    ],
+    "parameters": [
+        {
+            "label": "REVERB",
+            "max": -5,
+            "min": -25,
+            "name": "level",
+            "node": 10,
+            "slot": 1,
+            "value": -10
+        }
+    ],
+    "routing": [
+        {
+            "dest": 7,
+            "id": 9,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 3,
+            "id": 12,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 15,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 10,
+            "id": 18,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 8,
+            "id": 21,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 8,
+            "id": 24,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 2,
+            "id": 27,
+            "level": 0,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 30,
+            "level": -7.09897610921495,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 2,
+            "id": 33,
+            "level": 0,
+            "source": 8,
+            "type": "audio"
+        },
+        {
+            "dest": 3,
+            "id": 36,
+            "level": 0,
+            "source": 9,
+            "type": "audio"
+        },
+        {
+            "dest": 9,
+            "id": 39,
+            "level": 0,
+            "source": 10,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 23579.47691,
+        "width": 23579.47691,
+        "x": -543.506950215727,
+        "y": -0.000007535839841921
+    }
+}

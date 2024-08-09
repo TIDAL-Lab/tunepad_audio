@@ -1,0 +1,177 @@
+{
+    "patch_id": 87,
+    "generators": 32,
+    "instrument": "piano",
+    "created": "2022-03-01 17:50:11.806",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "modified": "2022-03-08 16:43:19.905",
+    "name": "Mellotron Flute Choir",
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.297727272727271,
+            "S": 1,
+            "a shape": 4,
+            "cx": 167.828506469727,
+            "cy": 37.9335041046143,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.03,
+            "cx": -148.23649597168,
+            "cy": -22.1584987640381,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 2,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "Q": 1,
+            "Q-mod": 10,
+            "cx": -84.5184936523438,
+            "cy": -21.9615020751953,
+            "filter type": "bandpass",
+            "frequency": 500,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 3,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "A": 0.2,
+            "D": 0.103409090909091,
+            "R": 0.3,
+            "S": 1,
+            "a shape": 4,
+            "cx": 9.31700468063355,
+            "cy": 27.9509983062744,
+            "d shape": 2,
+            "id": 4,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "cx": 98.4940032958984,
+            "cy": 36.6024971008301,
+            "gain-mod": 0.23,
+            "id": 5,
+            "level": 13.6689419795222,
+            "type": "gain"
+        },
+        {
+            "cx": -149.737487792969,
+            "cy": 75.2014923095703,
+            "id": 7,
+            "level": -23.8654894740682,
+            "noise": "white",
+            "type": "noise"
+        },
+        {
+            "Q": 0.43,
+            "Q-mod": 10,
+            "cx": -85.8495025634766,
+            "cy": 75.2014999389648,
+            "filter type": "bandpass",
+            "frequency": 10,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 8,
+            "level": -14.7489525222292,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -0.665501117706299,
+            "cy": 135.096485137939,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 4.1,
+            "frequency-mod": 30,
+            "id": 9,
+            "level": 0,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 3,
+            "id": 7,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 10,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 13,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 16,
+            "level": 2.66211604095567,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 8,
+            "id": 19,
+            "level": 0,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 22,
+            "level": 0,
+            "source": 8,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 25,
+            "level": 0,
+            "source": 9,
+            "type": "gain"
+        }
+    ],
+    "view": {
+        "height": 13310,
+        "width": 13310,
+        "x": -224.2735,
+        "y": -66.55
+    }
+}

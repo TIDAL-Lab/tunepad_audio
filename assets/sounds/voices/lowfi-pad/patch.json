@@ -1,0 +1,175 @@
+{
+    "patch_id": 99,
+    "description": "Like That",
+    "generators": 32,
+    "instrument": "piano",
+    "created": "2022-03-01 20:03:38.882",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "modified": "2022-03-08 16:45:57.043",
+    "name": "Lofi Pad",
+    "author": "pesto_cat",
+    "nodes": [
+        {
+            "A": 0.2,
+            "D": 0.91,
+            "R": 0.802272727272727,
+            "S": 0.192045454545455,
+            "a shape": 4,
+            "cx": 202.850051879883,
+            "cy": 74.786750793457,
+            "d shape": 0.494318181818183,
+            "id": 0,
+            "level": 0,
+            "r shape": 0.551136363636364,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -112.006988525391,
+            "cy": 3.47200226783752,
+            "detune": 0,
+            "detune-mod": 10,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 2,
+            "level": 0.139639378800794,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -112.179504394531,
+            "cy": 75.2890090942383,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 3,
+            "level": -0.0345104909259382,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -113.499984741211,
+            "cy": 139.771484375,
+            "detune": 0,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 1000,
+            "id": 4,
+            "level": -0.122912544993985,
+            "multiplier": 2,
+            "relative": true,
+            "type": "osc",
+            "waveform": "triangle"
+        },
+        {
+            "Q": 1.13646363636364,
+            "Q-mod": 10,
+            "cx": 45.9195022583008,
+            "cy": 75.8669891357422,
+            "filter type": "lowpass",
+            "frequency": 300.000000000001,
+            "frequency-mod": 580,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 5,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "cx": -183.012512207031,
+            "cy": 3.3274974822998,
+            "id": 7,
+            "level": 2.29606666789091,
+            "type": "rand"
+        },
+        {
+            "A": 0.59,
+            "D": 0.1,
+            "R": 1.35568181818183,
+            "S": 1,
+            "a shape": 0.988636363636369,
+            "cx": -46.5850009918213,
+            "cy": 195.657012939453,
+            "d shape": 2,
+            "id": 8,
+            "level": -2.64161799420408,
+            "r shape": 0.72159090909091,
+            "type": "adsr"
+        },
+        {
+            "cx": -158.38899230957,
+            "cy": 195.657012939453,
+            "id": 9,
+            "signal": 1,
+            "type": "const"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 5,
+            "id": 7,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 10,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 13,
+            "level": -0.324232081911269,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 0,
+            "id": 16,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 2,
+            "id": 19,
+            "level": 0,
+            "source": 7,
+            "type": "detune"
+        },
+        {
+            "dest": 5,
+            "id": 22,
+            "level": 0,
+            "source": 8,
+            "type": "frequency"
+        },
+        {
+            "dest": 8,
+            "id": 25,
+            "level": 0,
+            "source": 9,
+            "type": "audio"
+        }
+    ],
+    "view": {
+        "height": 16105.1,
+        "width": 16105.1,
+        "x": -289.89180307251,
+        "y": -59.588866394043
+    }
+}

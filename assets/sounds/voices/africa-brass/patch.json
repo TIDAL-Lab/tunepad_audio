@@ -1,0 +1,359 @@
+{
+    "patch_id": 103,
+    "created": "2022-02-28 16:55:36.817",
+    "modified": "2022-03-09 16:26:38.059",
+    "description": "Spacious Brass",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "author": "pesto_cat",
+    "instrument": "piano",
+    "name": "Africa Brass",
+    "nodes": [
+        {
+            "A": 0.1,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "cx": 360.696990966797,
+            "cy": -14.4945955276489,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -164.291030883789,
+            "cy": -40.4703197479248,
+            "detune": -9,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 2,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": -216.454704284668,
+            "cy": 9.04621410369873,
+            "detune": 8,
+            "detune-mod": 2,
+            "frequency": 440,
+            "frequency-mod": 800,
+            "id": 3,
+            "level": -5,
+            "multiplier": 1,
+            "relative": true,
+            "type": "osc",
+            "waveform": "sawtooth"
+        },
+        {
+            "Q": 1,
+            "Q-mod": 10,
+            "cx": -66.3530254364014,
+            "cy": 9.66305923461914,
+            "filter type": "lowpass",
+            "frequency": 362.628241272964,
+            "frequency-mod": 650,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 4,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "A": 0.19,
+            "D": 0,
+            "R": 0.8,
+            "S": 1,
+            "a shape": 4,
+            "cx": 94.2148132324219,
+            "cy": 10.4683141708374,
+            "d shape": 2,
+            "id": 5,
+            "level": -2.88241189972503,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "A": 0.19,
+            "D": 0.17,
+            "R": 0.3,
+            "S": 0.254545454545454,
+            "a shape": 4,
+            "cx": 7.2472767829895,
+            "cy": 49.4426536560059,
+            "d shape": 2,
+            "id": 6,
+            "level": 0.510339233929964,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "cx": 85.6791076660156,
+            "cy": 50.2479133605957,
+            "gain-mod": 0.5,
+            "id": 7,
+            "level": 0,
+            "type": "gain"
+        },
+        {
+            "cx": -233.04080581665,
+            "cy": 66.1919860839844,
+            "id": 8,
+            "signal": 1,
+            "type": "const"
+        },
+        {
+            "A": 0.09,
+            "D": 0.43,
+            "R": 0.3,
+            "S": 0.29,
+            "a shape": 0.370318181818182,
+            "cx": -175.062461853027,
+            "cy": 66.1114501953125,
+            "d shape": 2,
+            "id": 9,
+            "level": 0,
+            "r shape": 2,
+            "type": "adsr"
+        },
+        {
+            "Q": 1,
+            "Q-mod": 10,
+            "cx": 191.650665283203,
+            "cy": -42.6785125732422,
+            "filter type": "allpass",
+            "frequency": 350,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 10,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "Q": 1,
+            "Q-mod": 10,
+            "cx": 195.676940917969,
+            "cy": 9.66305732727051,
+            "filter type": "allpass",
+            "frequency": 350,
+            "frequency-mod": 100,
+            "gain": 0,
+            "gain-mod": 250,
+            "id": 11,
+            "level": 0,
+            "tracking": true,
+            "tracking ratio": 1,
+            "type": "filter"
+        },
+        {
+            "cx": 288.28125,
+            "cy": -15.2998447418213,
+            "id": 12,
+            "left-level": 0,
+            "left-level-mod": 0.1,
+            "right-level": 0,
+            "right-level-mod": 0.1,
+            "type": "stereo"
+        },
+        {
+            "amplitude-mod": 0.5,
+            "cx": 8.05252742767334,
+            "cy": -132.867088317871,
+            "detune": 0,
+            "detune-mod": 20,
+            "frequency": 2,
+            "frequency-mod": 30,
+            "id": 13,
+            "level": 0,
+            "relative": false,
+            "type": "lfo",
+            "waveform": "sine"
+        },
+        {
+            "cx": 198.173187255859,
+            "cy": 121.996116638184,
+            "delay": 0.57,
+            "delay-mod": 0.005,
+            "id": 14,
+            "level": -7.04731660943674,
+            "type": "delay"
+        },
+        {
+            "cx": -11.1125411987305,
+            "cy": 121.271385192871,
+            "delay": 0.33,
+            "delay-mod": 0.005,
+            "id": 15,
+            "level": -7.04731660943674,
+            "type": "delay"
+        },
+        {
+            "cx": 83.7464962005615,
+            "cy": -53.1468276977539,
+            "id": 16,
+            "type": "inverter"
+        }
+    ],
+    "parameters": [],
+    "routing": [
+        {
+            "dest": 4,
+            "id": 15,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 18,
+            "level": 0,
+            "source": 3,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 21,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 6,
+            "id": 24,
+            "level": 0,
+            "source": 4,
+            "type": "audio"
+        },
+        {
+            "dest": 11,
+            "id": 27,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 10,
+            "id": 30,
+            "level": 0,
+            "source": 5,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 33,
+            "level": 0,
+            "source": 6,
+            "type": "audio"
+        },
+        {
+            "dest": 14,
+            "id": 36,
+            "level": 0,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 15,
+            "id": 39,
+            "level": 0,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 5,
+            "id": 42,
+            "level": 0,
+            "source": 7,
+            "type": "audio"
+        },
+        {
+            "dest": 9,
+            "id": 45,
+            "level": 0,
+            "source": 8,
+            "type": "audio"
+        },
+        {
+            "dest": 4,
+            "id": 48,
+            "level": 0,
+            "source": 9,
+            "type": "frequency"
+        },
+        {
+            "dest": 12,
+            "id": 51,
+            "level": 0,
+            "source": 10,
+            "type": "left"
+        },
+        {
+            "dest": 12,
+            "id": 54,
+            "level": 0,
+            "source": 11,
+            "type": "right"
+        },
+        {
+            "dest": 0,
+            "id": 57,
+            "level": 2.21843003412973,
+            "source": 12,
+            "type": "audio"
+        },
+        {
+            "dest": 10,
+            "id": 60,
+            "level": 0,
+            "source": 13,
+            "type": "frequency"
+        },
+        {
+            "dest": 16,
+            "id": 63,
+            "level": 0,
+            "source": 13,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 66,
+            "level": 0,
+            "source": 14,
+            "type": "audio"
+        },
+        {
+            "dest": 7,
+            "id": 69,
+            "level": 0,
+            "source": 15,
+            "type": "audio"
+        },
+        {
+            "dest": 11,
+            "id": 72,
+            "level": 0,
+            "source": 16,
+            "type": "frequency"
+        }
+    ],
+    "view": {
+        "height": 17715.61,
+        "width": 17715.61,
+        "x": -290.536007778565,
+        "y": -186.899680859375
+    }
+}

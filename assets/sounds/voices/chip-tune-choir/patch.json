@@ -1,0 +1,83 @@
+
+{
+    "patch_id": 69,
+    "author": "pesto_cat",
+    "generators": 32,
+    "instrument": "piano",
+    "created": "2022-02-20 22:13:37.196",
+    "modified": "2022-03-08 20:20:39.693",
+    "description": "",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "name": "Chip Tune Choir",
+      "nodes": [
+        {
+          "A": 0.0886363636363637,
+          "D": 0.1,
+          "R": 0.0079545454545455,
+          "S": 1,
+          "a shape": 4,
+          "cx": 69.5,
+          "cy": 53,
+          "d shape": 2,
+          "id": 0,
+          "level": -4.34123337131808,
+          "r shape": 2,
+          "type": "out"
+        },
+        {
+          "amplitude-mod": 0.5,
+          "cx": -65.5,
+          "cy": 9,
+          "detune": 0,
+          "detune-mod": 2,
+          "frequency": 440,
+          "frequency-mod": 800,
+          "id": 2,
+          "level": -5,
+          "multiplier": 1,
+          "relative": true,
+          "type": "osc",
+          "waveform": "triangle"
+        },
+        {
+          "amplitude-mod": 0.5,
+          "cx": -68.5,
+          "cy": 91,
+          "detune": 0,
+          "detune-mod": 20,
+          "frequency": 440,
+          "frequency-mod": 800,
+          "id": 3,
+          "level": -5,
+          "multiplier": 1,
+          "pulse width": -0.62,
+          "pulse width-mod": 0.5,
+          "relative": true,
+          "type": "pwm"
+        }
+      ],
+      "parameters": [],
+      "routing": [
+        {
+          "dest": 0,
+          "id": 2,
+          "level": 0,
+          "source": 2,
+          "type": "audio"
+        },
+        {
+          "dest": 0,
+          "id": 5,
+          "level": 0,
+          "source": 3,
+          "type": "audio"
+        }
+      ],
+      "view": {
+        "height": 10000,
+        "width": 10000,
+        "x": -168.5,
+        "y": -50
+      }
+    }
