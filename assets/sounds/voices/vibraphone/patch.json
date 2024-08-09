@@ -7,7 +7,8 @@
     "description": "I’ve been given a highly damaged and noisy vibraphone recording by a fellow sound developer (Sam Gossner, owner of Versilian Studios). Using the power of spectral repair, I manually fixed each note to its original state giving this vibraphone sample set a rebirth, hence its name Vibraphone Renaissance.",
     "source": "https://www.pianobook.co.uk/packs/vibraphone-renaissance/",
     "author": "https://www.pianobook.co.uk/profile/samplescience/",
-    "license": "https://www.pianobook.co.uk/about/", 
+    "license": "https://www.pianobook.co.uk/about/",
+    "credit" : "Audio source: www.pianobook.co.uk/packs/vibraphone-renaissance",
     "nodes": [
         {
             "A": 0,
@@ -19,7 +20,7 @@
             "cy": 33.0000007152557,
             "d shape": 2,
             "id": 0,
-            "level": -20.0,
+            "level": -10.0,
             "r shape": 2,
             "type": "out"
         },
