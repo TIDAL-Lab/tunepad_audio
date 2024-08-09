@@ -1,0 +1,18 @@
+# Epic Brass – Trumpet - Version: [1.0]
+
+Date: 2024-01-01
+Name: David Mohn
+Profile: https://www.pianobook.co.uk/profile/dmohn28
+
+## Included formats
+
+- Kontakt 7.7.2
+
+## Using the instrument
+
+Epic Brass Trumpet was created using the publicly available free samples provided by the University of Iowa Electronic Music Studios.
+It incorperates 3 controls
+
+-Volume
+-Reverb
+-Lowpass Cutoff
