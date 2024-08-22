@@ -1,0 +1,125 @@
+{
+    "uid": "c97d3010-879e-11ec-9ee5-914948458fe3",
+    "version": "2.0",
+    "patch_id": 314,
+    "description": "Sonor Martini Mini Kit",
+    "format": "tunepad-patch",
+    "instrument": "drums",
+    "created": "2024-08-19 16:44:48.593",
+    "modified": "2024-08-20 11:15:49.079",
+    "name": "Jazz Drumkit",
+    "source": "https://www.pianobook.co.uk/packs/bedroom-drums/",
+    "author": "https://www.pianobook.co.uk/profile/skngh/",
+    "license": "https://www.pianobook.co.uk/about/",
+    "credit": "Audio source: pianobook.co.uk/packs/bedroom-drums",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "sample-pack": "jazz-drums",
+            "samples": [
+                {
+                    "name": "kick",
+                    "sample": "kick1",
+                    "step": 0
+                },
+                {
+                    "name": "kick",
+                    "sample": "kick2",
+                    "step": 1
+                },
+                {
+                    "name": "snare",
+                    "sample": "snare1",
+                    "step": 2
+                },
+                {
+                    "name": "snare",
+                    "sample": "snare2",
+                    "step": 3
+                },
+                {
+                    "name": "hat",
+                    "sample": "hat",
+                    "step": 4
+                },
+                {
+                    "name": "open hat",
+                    "sample": "open-hat",
+                    "step": 5
+                },
+                {
+                    "name": "tom",
+                    "sample": "tom1",
+                    "step": 6
+                },
+                {
+                    "name": "tom",
+                    "sample": "tom2",
+                    "step": 7
+                },
+                {
+                    "name": "tom",
+                    "sample": "tom3",
+                    "step": 8
+                },
+                {
+                    "name": "crash",
+                    "sample": "crash1",
+                    "step": 9
+                },
+                {
+                    "name": "crash",
+                    "sample": "crash2",
+                    "step": 10
+                },
+                {
+                    "name": "ride",
+                    "sample": "ride",
+                    "step": 11
+                },
+                {
+                    "name": "rim",
+                    "sample": "rim",
+                    "step": 12
+                },
+                {
+                    "name": "snare run",
+                    "sample": "run",
+                    "step": 13
+                },
+                {
+                    "name": "kick",
+                    "sample": "kick3",
+                    "step": 14
+                },
+                {
+                    "name": "hat",
+                    "sample": "hat2",
+                    "step": 15
+                }
+            ],
+            "type": "drums"
+        }
+    ],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}
