@@ -1,0 +1,125 @@
+{
+    "uid": "c97d3010-879e-11ec-9ee5-914948458fe3",
+    "version": "2.0",
+    "patch_id": 11,
+    "description": "Spooky time",
+    "format": "tunepad-patch",
+    "instrument": "drums",
+    "created": "2024-08-19 16:44:48.593",
+    "modified": "2024-08-20 11:15:49.079",
+    "name": "Ambient Horror",
+    "source": "https://www.pianobook.co.uk/packs/the-death-plate-lite/",
+    "author": "https://www.pianobook.co.uk/profile/occultaudio/",
+    "license": "https://www.pianobook.co.uk/about/",
+    "credit": "Audio source: www.pianobook.co.uk/packs/the-death-plate-lite/ and pixabay.com",
+    "nodes": [
+        {
+            "A": 0,
+            "D": 0.1,
+            "R": 0.15,
+            "S": 1,
+            "a shape": 4,
+            "d shape": 2,
+            "id": 0,
+            "level": 0,
+            "r shape": 2,
+            "type": "out"
+        },
+        {
+            "id": 2,
+            "sample-pack": "ambient-horror",
+            "samples": [
+                {
+                    "name": "abyss",
+                    "sample": "abyss",
+                    "step": 0
+                },
+                {
+                    "name": "claxon",
+                    "sample": "claxon",
+                    "step": 1
+                },
+                {
+                    "name": "crackler",
+                    "sample": "crackler",
+                    "step": 2
+                },
+                {
+                    "name": "crash",
+                    "sample": "crash",
+                    "step": 3
+                },
+                {
+                    "name": "crypt",
+                    "sample": "crypt",
+                    "step": 4
+                },
+                {
+                    "name": "dungeon",
+                    "sample": "dungeon",
+                    "step": 5
+                },
+                {
+                    "name": "expanse",
+                    "sample": "expanse",
+                    "step": 6
+                },
+                {
+                    "name": "howl",
+                    "sample": "howl",
+                    "step": 7
+                },
+                {
+                    "name": "laugh",
+                    "sample": "laugh",
+                    "step": 8
+                },
+                {
+                    "name": "monster",
+                    "sample": "monster",
+                    "step": 9
+                },
+                {
+                    "name": "morpher",
+                    "sample": "morpher",
+                    "step": 10
+                },
+                {
+                    "name": "rain",
+                    "sample": "rain",
+                    "step": 11
+                },
+                {
+                    "name": "scrape",
+                    "sample": "scrape",
+                    "step": 12
+                },
+                {
+                    "name": "static",
+                    "sample": "static",
+                    "step": 13
+                },
+                {
+                    "name": "thunder",
+                    "sample": "thunder",
+                    "step": 14
+                },
+                {
+                    "name": "storm",
+                    "sample": "storm",
+                    "step": 15
+                }
+            ],
+            "type": "drums"
+        }
+    ],
+    "routing": [
+        {
+            "dest": 0,
+            "id": 1,
+            "level": 0,
+            "source": 2,
+            "type": "audio"
+        }
+    ]
+}
