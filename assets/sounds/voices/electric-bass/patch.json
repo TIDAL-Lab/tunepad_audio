@@ -1,47 +1,37 @@
 {
-    "uid": "9abcf620-9f5e-11ec-8760-9d0e41a29257",
-    "version": "2.0",
-    "created": "2022-02-24 08:59:29.059",
-    "modified": "2022-03-08 22:09:15.132",
-    "description": "Electric Bass Guitar",
-    "format": "tunepad-patch",
-    "id": 1,
-    "instrument": "bass",
+    "patch_id": 305,
     "name": "Electric Bass",
+    "instrument": "bass",
+    "format": "tunepad-patch",
+    "version": "2.0",
+    "description": "Electric bass samples",
+    "min-note": 21,
+    "max-note": 96,
+    "focus-octave": 2,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,
             "D": 0.1,
-            "R": 0.15,
+            "R": 1.0,
             "S": 1,
             "a shape": 4,
             "d shape": 2,
             "id": 0,
-            "level": 0,
-            "r shape": 2,
+            "level": -5.0,
+            "r shape": 0.25,
             "type": "out"
         },
         {
             "id": 2,
             "playback": 1,
+            "playback-mod": 0.15,
             "sample-pack": "bass",
             "samples": [
-                {
-                    "sample": "21bassA1",
-                    "step": 21
-                },
-                {
-                    "sample": "24bassC2",
-                    "step": 24
-                },
-                {
-                    "sample": "36bassC3",
-                    "step": 36
-                },
-                {
-                    "sample": "48bassC4",
-                    "step": 48
-                }
+                { "sample": "33bassA1", "step": 33 },
+                { "sample": "36bassC2", "step": 36 },
+                { "sample": "48bassC3", "step": 48 },
+                { "sample": "60bassC4", "step": 60 }
             ],
             "type": "sample"
         }
@@ -51,7 +41,7 @@
         {
             "dest": 0,
             "id": 1,
-            "level": 0,
+            "level": 5,
             "source": 2,
             "type": "audio"
         }
