@@ -101,101 +101,119 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * `npm run build`
 * `npm run watch`
 
+# TODO
+* Gain on individual drum samples to balance out sounds
+* Possibly re-tune all of the octaves. should match garage band.
+* Load patch by ID and create aliases to be backward compatible
+* Re-record yamaha
+* Min key and max key in each patch. 
 
 # Full Patch List
 
 ## BASS
-* Electric Bass (patch 1)
-* Blues Bass (patch 305)
-* Plucked Bass (patch 224)
-* Synth Pop Bass (patch 84)
-* PWM Synth Bass (275)
-* Billie Bass (patch 308)
-* Jazz Upright (patch 209)
-* Jupiter Bass (patch 301)
-* Mars Bass (patch 303)
-* Saturn Bass (patch 302)
-* Pop Fizz Bass (patch 3)
-* Triangle Bass (patch 97)
-* I Feel Love Bass (patch 79)
-* Like That Bass (100)
-* Clean Cosine (282)
-* 303 Bass (patch 65)
-* 808 Bass (patch 367)
-
-
-## ORGAN
-* Hammond Organ (patch 80)
-* Rock Organ (patch 81)
-* Pipe Organ (patch 304)
-* Crystal Organ (patch 78)
-* House Organ Bass (patch 76)
-
-## PIANO
-* 8       Keyboard.8 piano Rhodes Piano
-* 9       Keyboard.0 piano Piano
-89      Keyboard.2 piano Sparkly E. Piano
-306     Harpsichord
-307     Electric Piano
-
-## MALLET
-* 5       Keyboard.3 piano Marimba
-* 63      Synth.Arps.1 piano FM Vibraphone
-* 300     Glockenspiel
-* Chimes (2)
-
-## SYNTH
-* Squiggly Puck (patch 255)     Synth.Arps.4
-* Wah Wah (patch 283)     Synth.Arps.5
-* Wacky Lead (251)
-* Wobbly Square (211)
-* Ocarina (253)
-* Party Synth (4)
-* Flat Synth (patch 10)     Synth.Leads.08 piano Flat Synth
-* Ice Synth (patch 170)     Synth.Arps.3 piano Ice Synth
-* Soft Synth (patch 223)    Synth.Leads.00 piano Soft Synth
-* Buzz Buzz (patch 252)     Synth.Leads.05 piano Buzz Buzz
-* Dreamy Pad (patch 53)     Synth.Pads.1 piano Dreamy Pad
-* FM Little Bell (62)       Synth.Arps.0 piano FM Little Bell
-* Soaring Saw (213)         Synth.Leads.02 piano Soaring Saw
-* Simple Saw (280)          Synth.Leads.10 piano Simple Saw
-* Searing Lead (254)        Synth.Leads.07 piano Searing Lead
-278 Synth.Leads.09 piano Bright Lead
-
---> FIXME needs patch id and replace old FM patch 210 Synth.Arps.2 piano Space Chime
-
+* Electric Bass (electric-bass) 1)
+* Blues Bass (blues-bass) 305
+* Jazz Bass (jazz-bass) 315
+* Plucked Bass (plucked-bass) 224
+* Billie Bass (billie-bass) 308
+* Jazz Upright Bass (upright-bass) 209
+* Pop Fizz Bass (pop-bass) 3
+* I Feel Love Bass (love-bass) 79
+* Like That Bass (like-that-bass) 100
+* Synth Pop Bass (synth-pop-bass) 84
+* PWM Synth Bass (pwm-bass) 275
+* Jupiter Bass (jupiter-bass) 301
+* Mars Bass (mars-bass) 303
+* Saturn Bass (saturn-bass) 302
+* Triangle Bass (triangle-bass) 97
+* Clean Cosine (cosine-bass) 282
+* 303 Bass (303-bass) 65
+* 808 Bass (808-bass) 367
 
 ## DRUMS
-* 808 Drums (11)
-* 909 Drums (466)
-* Rock Drumkit (12)
-* Headlines Drums (227)
-* LinnDrums (228)
-* Percussion Sounds (13)
-* Applause (204)
-* Sirens and Horns (205)
-* Whistles (206)
+* 808 Drums (808-drums) 11
+* 909 Drums (909-drums) 466
+* Rock Drumkit (rock-drums) 12
+* Jazz Drumkit (jazz-drums) 314
+* Headlines Drums (headlines-drums) 227
+* LinnDrums (linndrum) 228
+* Djembe (djembe) 313
+* Percussion Sounds (shot-drums) 13
+
+## PIANO
+* Grand Piano (grand-piano) 9
+* Rhodes Piano (rhodes) 8
+* Electric Piano (electric-piano) 89
+* Electric Piano 2 (electric-piano2) 307
+* Harpsichord (harpsichord) 306
+* Music Box (music-box) 7
+* Big Piano (big-piano) 126
+
+## ORGAN
+* Hammond Organ (jazz-organ) 80
+* Rock Organ (rock-organ) 81
+* Pipe Organ (pipe-organ) 304
+* Crystal Organ (crystal-organ) 78
+* House Organ Bass (house-organ-bass) 76
+* Sentimental Organ (sent-organ) 82
+
+## SOUND FX
+* Applause (applause) 204
+* Sirens and Horns (sirens) 205
+* Whistles (whistles) 206
+* Horror (spooky) 312
+
+
+======
 
 ## GUITAR
-* Acoustic Guitar (2)
-* Electric Guitar (107)
-* Ukulele (309)
+* Acoustic Guitar (fresh-guitar) 2
+* Electric Guitar (electric-guitar) 107
+* Ukulele (ukulele) 309
 
-222     Synth.Samples.2 piano Strings
-    
+## MALLET
+* Marimba (marimba) 5
+* Vibraphone (vibraphone) 63
+* Glockenspiel (glockenspiel) 300
+* Chimes (chimes) 2
+* Singing Bowl (singing-bowl) 62
+
+## SYNTH LEADS
+* Soft Synth (patch 223)    Synth.Leads.00 piano Soft Synth
+* Wobbly Square (211)
+* Soaring Saw (213)         Synth.Leads.02 piano Soaring Saw
+* Wacky Lead (251)
+* Buzz Buzz (patch 252)     Synth.Leads.05 piano Buzz Buzz
+* Ocarina (253)
+* Searing Lead (254)        Synth.Leads.07 piano Searing Lead
+* Flat Synth (patch 10)     Synth.Leads.08 piano Flat Synth
+* Bright Lead (278)         Synth.Leads.09 piano Bright Lead
+* Simple Saw (280)          Synth.Leads.10 piano Simple Saw
+
+## SYNTH ARPS
+* Party Synth (4)
+* Space Chimes (space-chimes) 210    Synth.Arps.2
+* Ice Synth (patch 170)     Synth.Arps.3
+* Squiggly Puck (255)       Synth.Arps.4
+* Wah Wah (patch 283)       Synth.Arps.5
+
+## SYNTH PADS
+* Africa Brass (103)        Synth.Pads.0
+* Dreamy Pad (53)           Synth.Pads.1
+* Dramatic Pad (75)         Synth.Pads.2
+* Synth Orchestra (85)      Synth.Pads.4
+* Mellotron Flute Choir (87) Synth.Pads.5 
+* Lofi Pad (99)             Synth.Pads.6
+* Chip Tune Choir (69)      Synth.Pads.7
+
+## ORCHESTRAL
+* Strings (222)         Synth.Samples.2
+* Bright Trumpet (226)  Synth.Samples.1
+* Trumpet (310)
 
 
-126 Keyboard.1 piano Big Piano
-7 Keyboard.4 piano Musicbox
 
-103 Synth.Pads.0 piano Africa Brass
-75 Synth.Pads.2 piano Dramatic Pad
-82 Synth.Pads.3 piano Sentimental Organ
-85 Synth.Pads.4 piano Synth Orchestra
-87 Synth.Pads.5 piano Mellotron Flute Choir
-99 Synth.Pads.6 piano Lofi Pad
-69 Synth.Pads.7 piano Chip Tune Choir
-293 Synth.Pads.8 piano Instant Chords 1
-294 Synth.Pads.9 piano Instant Chords 2
+* Trombone (311)
+
+
 225 Synth.Samples.0 piano Brass
-226 Synth.Samples.1 piano Trumpet
