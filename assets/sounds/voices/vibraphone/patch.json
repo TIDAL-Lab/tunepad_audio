@@ -2,13 +2,17 @@
     "patch_id": 63,
     "name": "Vibraphone",
     "instrument": "piano",
+    "min-note": 48,
+    "max-note": 96, 
+    "focus-octave": 4,
+    "key-range": 17,
     "format": "tunepad-patch",
     "version": "2.0",
-    "description": "I’ve been given a highly damaged and noisy vibraphone recording by a fellow sound developer (Sam Gossner, owner of Versilian Studios). Using the power of spectral repair, I manually fixed each note to its original state giving this vibraphone sample set a rebirth, hence its name Vibraphone Renaissance.",
-    "source": "https://www.pianobook.co.uk/packs/vibraphone-renaissance/",
-    "author": "https://www.pianobook.co.uk/profile/samplescience/",
+    "description": "Dream vibes",
+    "source": "https://www.pianobook.co.uk/packs/dream-vibes/",
+    "author": "https://www.pianobook.co.uk/profile/benjaminfreeland",
     "license": "https://www.pianobook.co.uk/about/",
-    "credit" : "Audio source: www.pianobook.co.uk/packs/vibraphone-renaissance",
+    "credit" : "Audio source: pianobook.co.uk/packs/dream-vibes",
     "nodes": [
         {
             "A": 0,
@@ -20,7 +24,7 @@
             "cy": 33.0000007152557,
             "d shape": 2,
             "id": 0,
-            "level": -10.0,
+            "level": -4.0,
             "r shape": 2,
             "type": "out"
         },
@@ -30,19 +34,7 @@
             "playback-mod": 0.15,
             "sample-pack": "vibraphone",
             "samples": [
-                { "sample": "24noteC1", "step": 24 },
-                { "sample": "31noteG1", "step": 31 },
-                { "sample": "36noteC2", "step": 36 },
-                { "sample": "43noteG2", "step": 43 },
-                { "sample": "48noteC3", "step": 48 },
-                { "sample": "55noteG3", "step": 55 },
-                { "sample": "60noteC4", "step": 60 },
-                { "sample": "67noteG4", "step": 67 },
-                { "sample": "72noteC5", "step": 72 },
-                { "sample": "79noteG5", "step": 79 },
-                { "sample": "84noteC6", "step": 84 },
-                { "sample": "91noteG6", "step": 91 },
-                { "sample": "96noteC7", "step": 96 }
+                { "sample": "68noteAb4", "step": 68 }
             ],
             "type": "sample"
         }
