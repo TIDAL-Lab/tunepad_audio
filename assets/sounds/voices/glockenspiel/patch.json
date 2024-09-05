@@ -2,11 +2,16 @@
     "patch_id": 300,
     "name": "Glockenspiel",
     "instrument": "piano",
+    "min-note": 72,
+    "max-note": 108,
+    "focus-octave": 5,
+    "key-range": 17,
     "format": "tunepad-patch",
     "version": "2.0",
-    "source": "https://www.pianobook.co.uk/packs/yamaha-glockenspiel/",
-    "author": "https://www.pianobook.co.uk/profile/andrew-finch/",
-    "license": "https://www.pianobook.co.uk/about/", 
+    "source": "https://www.pianobook.co.uk/packs/frozen-glock/",
+    "author": "https://www.pianobook.co.uk/profile/dan-keen/",
+    "license": "https://www.pianobook.co.uk/about/",
+    "credit": "Audio source: www.pianobook.co.uk/packs/frozen-glock",
     "description": "",
     "nodes": [
         {
@@ -29,12 +34,7 @@
             "playback-mod": 0.15,
             "sample-pack": "glockenspiel",
             "samples": [
-                { "sample": "66noteGb4", "step": 66 },
-                { "sample": "70noteBb4", "step": 70 },
-                { "sample": "74noteD5", "step": 74 },
-                { "sample": "77noteF5", "step": 77 },
-                { "sample": "84noteC6", "step": 84 },
-                { "sample": "89noteF6", "step": 89 }
+                { "sample": "80noteAb5", "step": 80 }
             ],
             "type": "sample"
         }
