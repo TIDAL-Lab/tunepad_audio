@@ -2,6 +2,10 @@
     "patch_id": 107,
     "name": "Stratocaster Guitar",
     "instrument": "guitar",
+    "min-note": 24,
+    "max-note": 84,
+    "focus-octave": 2,
+    "key-range": 17,
     "format": "tunepad-patch",
     "version": "2.0",
     "description": "Stratocaster Guitar",
@@ -28,10 +32,10 @@
             "playback-mod": 0.15,
             "sample-pack": "rjs-guitar",
             "samples": [
-                { "sample": "40noteE2", "step": 40 },
-                { "sample": "48noteC3", "step": 48 },
-                { "sample": "55noteG3", "step": 55 },
-                { "sample": "57noteA3", "step": 57 }
+                { "sample": "40noteE2", "step": 52 },
+                { "sample": "48noteC3", "step": 60 },
+                { "sample": "55noteG3", "step": 67 },
+                { "sample": "57noteA3", "step": 69 }
             ],
             "type": "sample"
         }
