@@ -9,6 +9,11 @@
     "version": "2.0",
     "name": "Sentimental Organ",
     "author": "pesto_cat",
+    "credit": "Patch by pesto_cat",
+    "min-note": 21,
+    "max-note": 84,
+    "focus-octave": 2,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0.295454545454546,

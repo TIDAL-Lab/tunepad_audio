@@ -7,6 +7,10 @@
     "description": "Harpsichord samples from a Yamaha P-105",
     "source": "Yamaha P-105",
     "credit" : "Audio source: Yamaha P-105 sample",
+    "min-note": 21,
+    "max-note": 108,
+    "focus-octave": 4,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,

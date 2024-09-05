@@ -7,7 +7,12 @@
     "description": "80s Synth Analog Bass Sound",
     "source": "https://www.pianobook.co.uk/packs/deep-jupiter/",
     "author": "https://www.pianobook.co.uk/profile/samplescience/",
-    "license": "https://www.pianobook.co.uk/about/", 
+    "license": "https://www.pianobook.co.uk/about/",
+    "credit": "Audio source: pianobook.co.uk/packs/deep-jupiter",
+    "min-note": 21,
+    "max-note": 72,
+    "focus-octave": 2,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,

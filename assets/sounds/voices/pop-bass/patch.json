@@ -6,6 +6,10 @@
     "instrument": "piano",
     "modified": "2022-03-11 13:54:15.739",
     "name": "Pop Fizz Bass",
+    "min-note": 21,
+    "max-note": 96,
+    "focus-octave": 2,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,
@@ -29,7 +33,7 @@
             "samples": [
                 {
                     "sample": "party-C4",
-                    "step": 60
+                    "step": 72
                 }
             ],
             "type": "sample"

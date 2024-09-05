@@ -8,6 +8,10 @@
     "version": "2.0",
     "instrument": "piano",
     "name": "PWM Synth Bass",
+    "min-note": 21,
+    "max-note": 96,
+    "focus-octave": 2,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0.0113636363636364,

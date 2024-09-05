@@ -6,7 +6,11 @@
     "version": "2.0",
     "description": "Jazz organ samples from a Yamaha P-105",
     "source": "Yamaha P-105",
-    "credit": "Audio source: Sampled from a Yamaha P-105",
+    "credit": "Audio source: Yamaha P-105 sample",
+    "min-note": 21,
+    "max-note": 96,
+    "focus-octave": 3,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,

@@ -8,6 +8,11 @@
     "created": "2022-02-21 19:45:53.083",
     "modified": "2022-03-08 21:58:17.403",
     "name": "Crystal Organ",
+    "credit": "Patch by pesto_cat",
+    "min-note": 21,
+    "max-note": 108,
+    "focus-octave": 4,
+    "key-range": 17,
     "nodes": [
       {
         "A": 0.0,

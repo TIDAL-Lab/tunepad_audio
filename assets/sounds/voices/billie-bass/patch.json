@@ -5,6 +5,10 @@
     "format": "tunepad-patch",
     "version": "2.0",
     "description": "Not my lover",
+    "min-note": 21,
+    "max-note": 60,
+    "focus-octave": 1,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,
@@ -26,19 +30,19 @@
             "samples": [
                     {
                       "sample": "BillieBassFsharp1",
-                      "step": 18
-                    },
-                    {
-                      "sample": "BillieBassB1",
-                      "step": 23
-                    },
-                    {
-                      "sample": "BillieBassFsharp2",
                       "step": 30
                     },
                     {
-                      "sample": "BillieBassB2",
+                      "sample": "BillieBassB1",
                       "step": 35
+                    },
+                    {
+                      "sample": "BillieBassFsharp2",
+                      "step": 42
+                    },
+                    {
+                      "sample": "BillieBassB2",
+                      "step": 47
                     }
             ],
             "type": "sample"

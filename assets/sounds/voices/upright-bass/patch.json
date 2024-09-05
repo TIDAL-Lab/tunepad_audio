@@ -4,10 +4,14 @@
     "instrument": "piano",
     "format": "tunepad-patch",
     "version": "2.0",
-    "description": "Jazz basss samples from a Yamaha P-105",
+    "description": "Jazz basss samples from Larry Seyer upright bass",
     "source": "https://www.pianobook.co.uk/packs/larry-seyer-upright-acoustic-bass/",
     "author": "https://www.pianobook.co.uk/profile/larryseyer/",
     "credit": "Audio source: www.pianobook.co.uk/packs/larry-seyer-upright-acoustic-bass",
+    "min-note": 21,
+    "max-note": 96,
+    "focus-octave": 2,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,

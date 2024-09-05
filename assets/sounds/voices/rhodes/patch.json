@@ -6,6 +6,10 @@
     "instrument": "piano",
     "modified": "2022-03-11 13:54:15.739",
     "name": "Rhodes Piano",
+    "min-note": 21,
+    "max-note": 108,
+    "focus-octave": 4,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,
@@ -28,24 +32,28 @@
             "sample-pack": "organ",
             "samples": [
                 {
-                    "sample": "rhodes-C2",
+                    "sample": "rhodes-C1",
                     "step": 36
                 },
                 {
-                    "sample": "rhodes-C3",
+                    "sample": "rhodes-C2",
                     "step": 48
                 },
                 {
-                    "sample": "rhodes-C4",
+                    "sample": "rhodes-C3",
                     "step": 60
                 },
                 {
-                    "sample": "rhodes-C5",
+                    "sample": "rhodes-C4",
                     "step": 72
                 },
                 {
-                    "sample": "rhodes-C6",
+                    "sample": "rhodes-C5",
                     "step": 84
+                },
+                {
+                    "sample": "rhodes-C6",
+                    "step": 96
                 }
             ],
             "type": "sample"

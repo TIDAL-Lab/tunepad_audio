@@ -7,6 +7,10 @@
     "uid": "6000da50-99e2-11ec-bdf9-fb27a92c993b",
     "version": "2.0",
     "author": "pesto_cat",
+    "min-note": 21,
+    "max-note": 96,
+    "focus-octave": 2,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0.0340909090909091,

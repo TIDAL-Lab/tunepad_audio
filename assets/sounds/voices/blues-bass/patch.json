@@ -8,6 +8,9 @@
     "source": "https://www.pianobook.co.uk/packs/low-fat-bass-clean-free-edition/",
     "author": "https://www.pianobook.co.uk/profile/laszlosomogyimusic/",
     "credit": "Audio source: www.pianobook.co.uk/packs/low-fat-bass-clean-free-edition",
+    "min-note": 21,
+    "max-note": 108,
+    "focus-octave": 2,
     "nodes": [
         {
             "A": 0,
@@ -17,7 +20,7 @@
             "a shape": 4,
             "d shape": 2,
             "id": 0,
-            "level": 1.0,
+            "level": -2.0,
             "r shape": 0.25,
             "type": "out"
         },
