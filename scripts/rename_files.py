@@ -28,9 +28,13 @@ note_map = {
 midi = 12
 
 for octave in octaves:
-    for note in notesS:
+    for note in notesF:
         if midi <= 108:
-            src = f'FSS6_Royers_L2_{note}{octave}_RR2.wav'
-            dst = f'{midi}note{note_map[note]}{octave}.wav'
-            print(f'mv {src} {dst}')
+            src = f'origs/{midi}note{note}{octave}.wav'
+            dst = f'{midi + 12}note{note}{octave + 1}.wav'
+            print(f'cp {src} {dst}')
+
+            src = f'origs/{midi}note{note}{octave}.ogg'
+            dst = f'{midi + 12}note{note}{octave + 1}.ogg'
+            print(f'cp {src} {dst}')
         midi += 1

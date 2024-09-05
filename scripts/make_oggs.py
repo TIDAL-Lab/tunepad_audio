@@ -14,9 +14,16 @@ midi = 12
 
 print('#!/bin/bash')
 
+files = [
+    "crash1", "crash2", "hat", "hat2", "kick1", "kick2", 
+    "kick3", "open-hat", "ride", "rim", "run", "snare1", "snare2",
+    "tom1", "tom2", "tom3"
+]
+
 for octave in octaves:
     for note in notes:
         if midi <= 108:
+            #for path in files:
             path = str(midi) + "note" + note + str(octave)
             infile = path + ".wav"
             wavfile = path + "-trim.wav"
