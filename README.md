@@ -111,7 +111,7 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 # Full Patch List
 
 ## BASS
-* Electric Bass (electric-bass) 1)
+* Electric Bass (electric-bass) 1
 * Blues Bass (blues-bass) 305
 * Jazz Bass (jazz-bass) 315
 * Plucked Bass (plucked-bass) 224
@@ -157,15 +157,6 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * House Organ Bass (house-organ-bass) 76
 * Sentimental Organ (sent-organ) 82
 
-## SOUND FX
-* Applause (applause) 204
-* Sirens and Horns (sirens) 205
-* Whistles (whistles) 206
-* Horror (spooky) 312
-
-
-======
-
 ## GUITAR
 * Acoustic Guitar (fresh-guitar) 2
 * Electric Guitar (electric-guitar) 107
@@ -177,6 +168,20 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * Glockenspiel (glockenspiel) 300
 * Chimes (chimes) 2
 * Singing Bowl (singing-bowl) 62
+
+## SOUND FX
+* Applause (applause) 204
+* Sirens and Horns (sirens) 205
+* Whistles (whistles) 206
+* Horror (spooky) 312
+
+## ORCHESTRAL
+* Strings (strings) 222
+* Brass (brass) 225
+* Bright Trumpet (bright-trumpet) 226
+* Trumpet (trumpet) 310
+
+======
 
 ## SYNTH LEADS
 * Soft Synth (patch 223)    Synth.Leads.00 piano Soft Synth
@@ -206,14 +211,3 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * Lofi Pad (99)             Synth.Pads.6
 * Chip Tune Choir (69)      Synth.Pads.7
 
-## ORCHESTRAL
-* Strings (222)         Synth.Samples.2
-* Bright Trumpet (226)  Synth.Samples.1
-* Trumpet (310)
-
-
-
-* Trombone (311)
-
-
-225 Synth.Samples.0 piano Brass
