@@ -181,6 +181,15 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * Bright Trumpet (bright-trumpet) 226
 * Trumpet (trumpet) 310
 
+## SYNTH PADS
+* Africa Brass (africa-brass) 103
+* Dreamy Pad (dreamy-pad) 53
+* Dramatic Pad (drama-pad) 75
+* Synth Orchestra (synth-orchestra) 85
+* Mellotron Flute Choir (mellotron-flute-choir) 87
+* Lofi Pad (lowfi-pad) 99
+* Chip Tune Choir (chip-tune-choir) 69
+
 ======
 
 ## SYNTH LEADS
@@ -202,12 +211,4 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * Squiggly Puck (255)       Synth.Arps.4
 * Wah Wah (patch 283)       Synth.Arps.5
 
-## SYNTH PADS
-* Africa Brass (103)        Synth.Pads.0
-* Dreamy Pad (53)           Synth.Pads.1
-* Dramatic Pad (75)         Synth.Pads.2
-* Synth Orchestra (85)      Synth.Pads.4
-* Mellotron Flute Choir (87) Synth.Pads.5 
-* Lofi Pad (99)             Synth.Pads.6
-* Chip Tune Choir (69)      Synth.Pads.7
 
