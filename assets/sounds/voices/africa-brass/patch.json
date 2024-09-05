@@ -7,6 +7,11 @@
     "version": "2.0",
     "author": "pesto_cat",
     "instrument": "piano",
+    "min-note": 24,
+    "max-note": 84,
+    "focus-octave": 3,
+    "key-range": 17,
+    "credit": "Patch by pesto_cat",
     "name": "Africa Brass",
     "nodes": [
         {
