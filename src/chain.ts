@@ -25,7 +25,9 @@ import {
     SynthConstNode,
     SynthDelayNode,
     SynthDistortionNode,
+    SynthNoiseNode,
     SynthPannerNode,
+    SynthRandomSignalNode,
     SynthStereoNode,
     SynthConnector } from './nodes';
 import { toStr } from './utils';
@@ -202,7 +204,7 @@ export class SynthChain {
 
             //case 'modal': return SynthModalNode(context, config);
 
-            //case 'noise': return SynthNoiseNode(context, config);
+            case 'noise': return new SynthNoiseNode(context, config);
 
             case 'osc': return new SynthOscNode(context, config);
 
@@ -220,7 +222,7 @@ export class SynthChain {
 
             case 'out': return new OutNode(context, config);
 
-            //case 'rand': return SynthRandomSignalNode(context, config);
+            case 'rand': return new SynthRandomSignalNode(context, config);
 
             case 'sample': return new SynthSampleNode(context, config);
 
