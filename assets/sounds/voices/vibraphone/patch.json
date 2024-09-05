@@ -2,7 +2,7 @@
     "patch_id": 63,
     "name": "Vibraphone",
     "instrument": "piano",
-    "min-note": 48,
+    "min-note": 36,
     "max-note": 96, 
     "focus-octave": 4,
     "key-range": 17,
