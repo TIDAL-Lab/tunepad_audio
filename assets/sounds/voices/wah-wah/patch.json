@@ -6,6 +6,12 @@
     "format": "tunepad-patch",
     "version": "2.0",
     "author": "pesto_cat",
+    "instrument": "piano",
+    "min-note": 36,
+    "max-note": 96,
+    "focus-octave": 4,
+    "key-range": 17,
+    "credit": "Patch by pesto_cat",
     "nodes": [
         {
             "A": 0.0545454545454546,

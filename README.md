@@ -181,16 +181,12 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * Bright Trumpet (bright-trumpet) 226
 * Trumpet (trumpet) 310
 
-## SYNTH PADS
-* Africa Brass (africa-brass) 103
-* Dreamy Pad (dreamy-pad) 53
-* Dramatic Pad (drama-pad) 75
-* Synth Orchestra (synth-orchestra) 85
-* Mellotron Flute Choir (mellotron-flute-choir) 87
-* Lofi Pad (lowfi-pad) 99
-* Chip Tune Choir (chip-tune-choir) 69
-
-======
+## SYNTH ARPS
+* Party Synth (party) 4
+* Space Chimes (space-chimes) 210
+* Ice Synth (ice-synth) 170
+* Squiggly Pluck (squiggly-pluck) 255
+* Wah Wah (wah-wah) 283
 
 ## SYNTH LEADS
 * Soft Synth (patch 223)    Synth.Leads.00 piano Soft Synth
@@ -204,11 +200,11 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * Bright Lead (278)         Synth.Leads.09 piano Bright Lead
 * Simple Saw (280)          Synth.Leads.10 piano Simple Saw
 
-## SYNTH ARPS
-* Party Synth (4)
-* Space Chimes (space-chimes) 210    Synth.Arps.2
-* Ice Synth (patch 170)     Synth.Arps.3
-* Squiggly Puck (255)       Synth.Arps.4
-* Wah Wah (patch 283)       Synth.Arps.5
-
-
+## SYNTH PADS
+* Africa Brass (africa-brass) 103
+* Dreamy Pad (dreamy-pad) 53
+* Dramatic Pad (drama-pad) 75
+* Synth Orchestra (synth-orchestra) 85
+* Mellotron Flute Choir (mellotron-flute-choir) 87
+* Lofi Pad (lowfi-pad) 99
+* Chip Tune Choir (chip-tune-choir) 69

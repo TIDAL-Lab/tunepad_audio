@@ -4,6 +4,10 @@
     "description": "",
     "format": "tunepad-patch",
     "instrument": "piano",
+    "min-note": 24,
+    "max-note": 96,
+    "focus-octave": 3,
+    "key-range": 17,
     "modified": "2022-03-11 13:54:15.739",
     "name": "Party Synth",
     "nodes": [
@@ -29,7 +33,7 @@
             "samples": [
                 {
                     "sample": "party-C4",
-                    "step": 60
+                    "step": 72
                 }
             ],
             "type": "sample"
