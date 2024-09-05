@@ -6,12 +6,16 @@
     "format": "tunepad-patch",
     "version": "2.0",
     "instrument": "piano",
+    "min-note": 24,
+    "max-note": 84,
+    "focus-octave": 3,
+    "key-range": 17,
     "name": "Bright Trumpet",
     "nodes": [
         {
             "A": 0,
             "D": 0.1,
-            "R": 0.15,
+            "R": 0.05,
             "S": 1,
             "a shape": 4,
             "cx": 68,
@@ -34,7 +38,7 @@
             "samples": [
                 {
                     "sample": "trumpet",
-                    "step": 48
+                    "step": 60
                 }
             ],
             "type": "sample"
