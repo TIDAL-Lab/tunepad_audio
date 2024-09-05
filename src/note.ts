@@ -103,7 +103,7 @@ export class Note {
 
 
     /// note "playback rate"
-    get rate() : number { return Math.pow(2, this.note/12); }
+    get rate() : number { return Math.pow(2, this.note/12 - 1); }
 
 
     /// note frequency (Hz)
