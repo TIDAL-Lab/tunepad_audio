@@ -9,10 +9,12 @@ export * from "./filter";
 export * from "./inverter";
 export * from "./modulator";
 export * from "./node";
+export * from "./noise";
 export * from "./osc";
 export * from "./out";
 export * from "./panner";
 export * from "./pwm";
+export * from "./rand";
 export * from "./sample";
 export * from "./stereo";
 //# sourceMappingURL=index.d.ts.map
