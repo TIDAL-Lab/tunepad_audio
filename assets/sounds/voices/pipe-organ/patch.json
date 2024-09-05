@@ -6,6 +6,11 @@
     "version": "2.0",
     "description": "Samples from a Yamaha P-105",
     "source": "Yamaha P-105",
+    "credit": "Audio source: Yamaha P-105 sample",
+    "min-note": 21,
+    "max-note": 108,
+    "focus-octave": 4,
+    "key-range": 17,
     "nodes": [
         {
             "A": 0,
@@ -25,10 +30,6 @@
             "playback-mod": 0.15,
             "sample-pack": "pipe-organ",
             "samples": [
-                { "sample": "12noteC0", "step": 12 },
-                { "sample": "16noteE0", "step": 16 },
-                { "sample": "19noteG0", "step": 19 },
-
                 { "sample": "24noteC1", "step": 24 },
                 { "sample": "28noteE1", "step": 28 },
                 { "sample": "31noteG1", "step": 31 },
