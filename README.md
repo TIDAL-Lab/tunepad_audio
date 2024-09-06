@@ -189,16 +189,16 @@ npm install --save-dev @rollup/plugin-typescript @rollup/plugin-terser @rollup/p
 * Wah Wah (wah-wah) 283
 
 ## SYNTH LEADS
-* Soft Synth (patch 223)    Synth.Leads.00 piano Soft Synth
-* Wobbly Square (211)
-* Soaring Saw (213)         Synth.Leads.02 piano Soaring Saw
-* Wacky Lead (251)
-* Buzz Buzz (patch 252)     Synth.Leads.05 piano Buzz Buzz
-* Ocarina (253)
-* Searing Lead (254)        Synth.Leads.07 piano Searing Lead
-* Flat Synth (patch 10)     Synth.Leads.08 piano Flat Synth
-* Bright Lead (278)         Synth.Leads.09 piano Bright Lead
-* Simple Saw (280)          Synth.Leads.10 piano Simple Saw
+* Soft Synth (soft-synth) 223
+* Wobbly Square (wobbly-square) 211
+* Soaring Saw (soaring-saw) 213
+* Wacky Lead (wacky-lead) 251
+* Buzz Buzz (buzz-buzz) 252
+* Ocarina (ocarina) 253
+* Searing Lead (searing-lead) 254
+* Flat Synth (flat-synth) 10
+* Bright Lead (bright-lead) 278
+* Simple Saw (simple-saw) 280
 
 ## SYNTH PADS
 * Africa Brass (africa-brass) 103

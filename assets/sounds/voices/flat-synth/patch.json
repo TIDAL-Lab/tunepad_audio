@@ -6,6 +6,10 @@
     "format": "tunepad-patch",
     "version": "2.0",
     "instrument": "piano",
+    "min-note": 24,
+    "max-note": 84,
+    "focus-octave": 3,
+    "key-range": 17,
     "name": "Flat Synth",
     "nodes": [
         {
@@ -34,11 +38,11 @@
             "samples": [
                 {
                     "sample": "korg-NSR5-C3",
-                    "step": 36
+                    "step": 48
                 },
                 {
                     "sample": "korg-NSR5-C4",
-                    "step": 48
+                    "step": 60
                 }
             ],
             "type": "sample"

@@ -7,7 +7,7 @@
         "D": 0.1,
         "S": 0.8,
         "R": 0.25,
-        "level" : 0,
+        "level" : -5.0,
         "id": 0
       },
       {
@@ -26,6 +26,11 @@
     "name": "Simple Saw",
     "description": "",
     "instrument": "piano",
+    "min-note": 24,
+    "max-note": 84,
+    "focus-octave": 3,
+    "key-range": 17,
+    "credit": "Patch by pesto_cat",
     "submenu": "",
     "version": "2.0",
     "format": "tunepad-patch",

@@ -6,6 +6,10 @@
     "format": "tunepad-patch",
     "version": "2.0",
     "instrument": "piano",
+    "min-note": 36,
+    "max-note": 84,
+    "focus-octave": 3,
+    "key-range": 17,
     "name": "Soft Synth",
     "nodes": [
         {
@@ -34,15 +38,15 @@
             "samples": [
                 {
                     "sample": "SynthB2",
-                    "step": 35
+                    "step": 47
                 },
                 {
                     "sample": "SynthE3",
-                    "step": 40
+                    "step": 52
                 },
                 {
                     "sample": "SynthA3",
-                    "step": 45
+                    "step": 57
                 }
             ],
             "type": "sample"
